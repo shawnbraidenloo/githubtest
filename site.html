@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+	
+	<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -70,63 +72,7 @@
 	<!-- Begin Insider -->
 	<!-- <script type="text/javascript" src="https://www.posttoday.com/insider-sw-sdk.js"></script> -->
 	<!-- End Insider -->
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web Interstitial Ad Example</title>
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    <script>
-      window.googletag = window.googletag || {cmd: []};
 
-      // GPT ad slots
-      var interstitialSlot, staticSlot;
-
-      googletag.cmd.push(function() {
-        // Define a web interstitial ad slot.
-        interstitialSlot = googletag.defineOutOfPageSlot(
-            '/6355419/Travel/Europe/France/Paris',
-            googletag.enums.OutOfPageFormat.INTERSTITIAL);
-
-        // Slot returns null if the page or device does not support interstitials.
-        if (interstitialSlot) {
-          interstitialSlot.addService(googletag.pubads());
-
-          document.getElementById('status').innerText = 'Interstitial is loading...';
-
-          // Add event listener to enable navigation once the interstitial loads.
-          // If this event doesn't fire, try clearing local storage and refreshing
-          // the page.
-          googletag.pubads().addEventListener('slotOnload', function(event) {
-            if (interstitialSlot === event.slot) {
-              document.getElementById('link').style.display = 'block';
-              document.getElementById('status').innerText = 'Interstitial is loaded.';
-            }
-          });
-        }
-
-        // Define static ad slots.
-        staticSlot = googletag.defineSlot(
-            '/6355419/Travel/Europe', [100, 100], 'static-ad-1')
-          .addService(googletag.pubads());
-
-        // Enable SRA and services.
-        googletag.pubads().enableSingleRequest();
-        googletag.enableServices();
-      });
-    </script>
-    <style>
-      #link {
-        display: none;
-      }
-
-      div.content {
-        position: fixed;
-        top: 50%;
-      }
-    </style>
- 
-   
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -153,32 +99,6 @@
 	
 		</head>
 <body class="webp">
- <div id="static-ad-1" style="width: 100px; height: 100px;"></div>
-    <div class="content">
-      <span id="status">Web interstitial is not supported on this page.</span>
-      <p>
-        <a id="link" href="https://www.example.com/">TRIGGER INTERSTITIAL</a>
-      </p>
-      <p>
-        <!--
-          You can prevent specific links from triggering GPT-managed web interstials by
-          adding a data-google-interstitial="false" attribute to the anchor element or
-          any ancestor of the anchor element.
-        -->
-        <a data-google-interstitial="false" href="https://www.example.com/">
-          This link will never trigger an interstitial
-        </a>
-      </p>
-    </div>
-    <script>
-        googletag.cmd.push(function() {
-          // Ensure the first call to display comes after static ad slot
-          // divs are defined.
-          googletag.display(staticSlot);
-        });
-    </script>
-  
-  
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC65SG8"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -393,14 +313,14 @@
 								</div>
 								<div class="item-photo">
 
-								<a href="https://www.posttoday.com/specials/covid19/#covid_news" title="covid update รายงานยอดผู้ติดเชื้อโควิด-19 ประจำวันที่ 11 มิถุนายน พ.ศ. 2564
+								<a href="https://www.posttoday.com/specials/covid19/#covid_news" title="covid update รายงานยอดผู้ติดเชื้อโควิด-19 ประจำวันที่ 13 มิถุนายน พ.ศ. 2564
 " class="box-channel ">
-										<img src="https://static.posttoday.com/media/content/2021/06/11/B119131BB212A0CB542CF3629D78F6CA.jpeg" class="img-fluid">
+										<img src="https://static.posttoday.com/media/content/2021/06/13/D56C12A3FE6B1C25A126D8FF0500BBDE.jpeg" class="img-fluid">
 									</a>
 								
 								</div>
 								<div class="item-intro">
-									<a href="https://www.posttoday.com/specials/covid19/#covid_news">รายงานยอดผู้ติดเชื้อโควิด-19 ประจำวันที่ 11 มิถุนายน พ.ศ. 2564
+									<a href="https://www.posttoday.com/specials/covid19/#covid_news">รายงานยอดผู้ติดเชื้อโควิด-19 ประจำวันที่ 13 มิถุนายน พ.ศ. 2564
 </a>
 								</div>
 							</div>
@@ -414,7 +334,7 @@
 								<div class="item-photo">
 
 								<a href="https://www.posttoday.com/specials/covid19/#vaccine_news" title="vaccine update รายงานตัวเลขจำนวนผู้ได้รับวัคซีนโควิดล่าสุด" class="box-channel ">
-										<img src="https://static.posttoday.com/media/content/2021/06/10/03983ED9D58403479C173A41B1FF8643.jpg" class="img-fluid">
+										<img src="https://static.posttoday.com/media/content/2021/06/12/CCF2582E0BE9EA9F0A01B9B3616380E6.jpeg" class="img-fluid">
 									</a>
 								</div>
 								<div class="item-intro">
@@ -495,41 +415,41 @@
 				<div class="desktop">
 						<div class="owl-carousel owl-theme owl-hilghtlight">
 														<div class="item">
-								<a href="/social/general/655237">
-									<h3 class="item-text">ยอดโควิดวันนี้!!ป่วยใหม่ 2,290 เสียชีวิต 27 ราย</h3>
+								<a href="/social/general/655406">
+									<h3 class="item-text">แจงข่าวปลอม! อ้างตร.ทองหล่อเสียชีวิตหลังฉีดวัคซีน</h3>
 									<div class="item-photo bg-gradient">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_700.jpg 700w"  onerror="imgError(this);" alt="ยอดโควิดวันนี้!!ป่วยใหม่ 2,290 เสียชีวิต 27 ราย" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_700.jpg 700w"  onerror="imgError(this);" alt="แจงข่าวปลอม! อ้างตร.ทองหล่อเสียชีวิตหลังฉีดวัคซีน" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item">
-								<a href="/social/general/655234">
-									<h3 class="item-text">อย่ากังวล! "นพ.ยง" แจง ผลข้างเคียงแอสตราเซเนเกา คล้ายไข้หวัดใหญ่ 1-2 วันหาย</h3>
+								<a href="/social/general/655411">
+									<h3 class="item-text">กทม.แจงตั้งแต่7-14มิ.ย.ได้รับวัคซีน 5 แสนโดสไม่ใช่1ล้านโดสตามที่สธ.ระบุ</h3>
 									<div class="item-photo bg-gradient">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_700.jpg 700w"  onerror="imgError(this);" alt="อย่ากังวล! "นพ.ยง" แจง ผลข้างเคียงแอสตราเซเนเกา คล้ายไข้หวัดใหญ่ 1-2 วันหาย" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_700.jpg 700w"  onerror="imgError(this);" alt="กทม.แจงตั้งแต่7-14มิ.ย.ได้รับวัคซีน 5 แสนโดสไม่ใช่1ล้านโดสตามที่สธ.ระบุ" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item">
-								<a href="/finance-stock/news/655236">
-									<h3 class="item-text">คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย</h3>
+								<a href="/politic/news/655408">
+									<h3 class="item-text">รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส</h3>
 									<div class="item-photo bg-gradient">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_700.jpg 700w"  onerror="imgError(this);" alt="คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_700.jpg 700w"  onerror="imgError(this);" alt="รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item">
-								<a href="/world/655218">
-									<h3 class="item-text">เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท</h3>
+								<a href="/world/655397">
+									<h3 class="item-text">ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว</h3>
 									<div class="item-photo bg-gradient">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_700.jpg 700w"  onerror="imgError(this);" alt="เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_1000.jpg' media='(min-width: 1000px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src=""  data-srcset="https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_700.jpg 700w"  onerror="imgError(this);" alt="ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
@@ -538,41 +458,41 @@
 						<div>
 							<ul class="box-hilghtlight">
 																<li class="item " >
-									<a class="" href="/social/local/655227">
-										<h3 class="item-text ">ลูกชายยันพ่อวัย84แข็งแรงดี ก่อนรับวัคซีนโควิด-19 ขอรอผลชันสูตร</h3>
+									<a class="" href="/social/general/655396">
+										<h3 class="item-text ">กทม.ยังพบผู้ป่วยโควิดมากสุด มี85คลัสเตอร์เฝ้าระวัง</h3>
 										<div class="item-photo bg-gradient ">
 											<picture >
-																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_700.jpg 700w"  onerror="imgError(this);" alt="ลูกชายยันพ่อวัย84แข็งแรงดี ก่อนรับวัคซีนโควิด-19 ขอรอผลชันสูตร" class="img-fluid lazyload">
+																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_700.jpg 700w"  onerror="imgError(this);" alt="กทม.ยังพบผู้ป่วยโควิดมากสุด มี85คลัสเตอร์เฝ้าระวัง" class="img-fluid lazyload">
 											</picture>
 										</div>
 									</a>
 								</li>
 																<li class="item ads-list-desktop" >
-									<a class="ads-link-desktop" href="/world/655195">
-										<h3 class="item-text ads-text-desktop">เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง</h3>
+									<a class="ads-link-desktop" href="/world/655377">
+										<h3 class="item-text ads-text-desktop">ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์</h3>
 										<div class="item-photo bg-gradient ads-picture-fluid-desktop">
 											<picture >
-																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_700.jpg 700w"  onerror="imgError(this);" alt="เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง" class="img-fluid lazyload">
+																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_700.jpg 700w"  onerror="imgError(this);" alt="ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์" class="img-fluid lazyload">
 											</picture>
 										</div>
 									</a>
 								</li>
 																<li class="item " >
-									<a class="" href="/social/general/655185">
-										<h3 class="item-text ">เปิดเทอมพร้อมกัน14มิ.ย.!! "ศบค." เผยข้อห้าม 4 จังหวัดสีแดงเข้ม</h3>
+									<a class="" href="/social/general/655387">
+										<h3 class="item-text ">แพทย์ชนบทเตือน14-20มิ.ย.สัปดาห์โกลาหลวัคซีนมีไม่พอ</h3>
 										<div class="item-photo bg-gradient ">
 											<picture >
-																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_700.jpg 700w"  onerror="imgError(this);" alt="เปิดเทอมพร้อมกัน14มิ.ย.!! "ศบค." เผยข้อห้าม 4 จังหวัดสีแดงเข้ม" class="img-fluid lazyload">
+																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_700.jpg 700w"  onerror="imgError(this);" alt="แพทย์ชนบทเตือน14-20มิ.ย.สัปดาห์โกลาหลวัคซีนมีไม่พอ" class="img-fluid lazyload">
 											</picture>
 										</div>
 									</a>
 								</li>
 																<li class="item " >
-									<a class="" href="/politic/news/655221">
-										<h3 class="item-text ">"ชวน" ชี้ "สิระ" พา "ลุงพล" เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ.</h3>
+									<a class="" href="/social/general/655365">
+										<h3 class="item-text ">ศบค.เผยไทยป่วยโควิดเพิ่ม 2,804 ราย เสียชีวิตอีก18</h3>
 										<div class="item-photo bg-gradient ">
 											<picture >
-																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_700.jpg 700w"  onerror="imgError(this);" alt=""ชวน" ชี้ "สิระ" พา "ลุงพล" เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ." class="img-fluid lazyload">
+																								<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_700.jpg 700w"  onerror="imgError(this);" alt="ศบค.เผยไทยป่วยโควิดเพิ่ม 2,804 ราย เสียชีวิตอีก18" class="img-fluid lazyload">
 											</picture>
 										</div>
 									</a>
@@ -587,81 +507,81 @@
 					<div class="mobile">
 						<div class="owl-carousel owl-theme owl-hilghtlight-1">
 														<div class="item ">
-								<a class="" href="/social/general/655237">
-									<h3 class="item-text ">ยอดโควิดวันนี้!!ป่วยใหม่ 2,290 เสียชีวิต 27 ราย</h3>
+								<a class="" href="/social/general/655406">
+									<h3 class="item-text ">แจงข่าวปลอม! อ้างตร.ทองหล่อเสียชีวิตหลังฉีดวัคซีน</h3>
 									<div class="item-photo bg-gradient ">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/2B196008BEBDEC31305BEFCDDD8FCC7C_700.jpg 700w"  onerror="imgError(this);" alt="ยอดโควิดวันนี้!!ป่วยใหม่ 2,290 เสียชีวิต 27 ราย" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/CC6A913DAEF35B387B416544DB345C16_700.jpg 700w"  onerror="imgError(this);" alt="แจงข่าวปลอม! อ้างตร.ทองหล่อเสียชีวิตหลังฉีดวัคซีน" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item ">
-								<a class="" href="/social/general/655234">
-									<h3 class="item-text ">อย่ากังวล! "นพ.ยง" แจง ผลข้างเคียงแอสตราเซเนเกา คล้ายไข้หวัดใหญ่ 1-2 วันหาย</h3>
+								<a class="" href="/social/general/655411">
+									<h3 class="item-text ">กทม.แจงตั้งแต่7-14มิ.ย.ได้รับวัคซีน 5 แสนโดสไม่ใช่1ล้านโดสตามที่สธ.ระบุ</h3>
 									<div class="item-photo bg-gradient ">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/E9FF5CC89C6BDA62598EF6AA57D13C75_700.jpg 700w"  onerror="imgError(this);" alt="อย่ากังวล! "นพ.ยง" แจง ผลข้างเคียงแอสตราเซเนเกา คล้ายไข้หวัดใหญ่ 1-2 วันหาย" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_700.jpg 700w"  onerror="imgError(this);" alt="กทม.แจงตั้งแต่7-14มิ.ย.ได้รับวัคซีน 5 แสนโดสไม่ใช่1ล้านโดสตามที่สธ.ระบุ" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item ads-list-mobile">
-								<a class="ads-link-mobile" href="/finance-stock/news/655236">
-									<h3 class="item-text ads-text-mobile">คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย</h3>
+								<a class="ads-link-mobile" href="/politic/news/655408">
+									<h3 class="item-text ads-text-mobile">รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส</h3>
 									<div class="item-photo bg-gradient ads-picture-fluid-mobile">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_700.jpg 700w"  onerror="imgError(this);" alt="คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_700.jpg 700w"  onerror="imgError(this);" alt="รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item ">
-								<a class="" href="/world/655218">
-									<h3 class="item-text ">เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท</h3>
+								<a class="" href="/world/655397">
+									<h3 class="item-text ">ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว</h3>
 									<div class="item-photo bg-gradient ">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_700.jpg 700w"  onerror="imgError(this);" alt="เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_700.jpg 700w"  onerror="imgError(this);" alt="ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item ">
-								<a class="" href="/social/local/655227">
-									<h3 class="item-text ">ลูกชายยันพ่อวัย84แข็งแรงดี ก่อนรับวัคซีนโควิด-19 ขอรอผลชันสูตร</h3>
+								<a class="" href="/social/general/655396">
+									<h3 class="item-text ">กทม.ยังพบผู้ป่วยโควิดมากสุด มี85คลัสเตอร์เฝ้าระวัง</h3>
 									<div class="item-photo bg-gradient ">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/5AE8074E032B3CB21FAFD92378F516D4_700.jpg 700w"  onerror="imgError(this);" alt="ลูกชายยันพ่อวัย84แข็งแรงดี ก่อนรับวัคซีนโควิด-19 ขอรอผลชันสูตร" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/AA852D5BACDEAE3CD200ABAB60F1EC1A_700.jpg 700w"  onerror="imgError(this);" alt="กทม.ยังพบผู้ป่วยโควิดมากสุด มี85คลัสเตอร์เฝ้าระวัง" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item ">
-								<a class="" href="/world/655195">
-									<h3 class="item-text ">เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง</h3>
+								<a class="" href="/world/655377">
+									<h3 class="item-text ">ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์</h3>
 									<div class="item-photo bg-gradient ">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_700.jpg 700w"  onerror="imgError(this);" alt="เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_700.jpg 700w"  onerror="imgError(this);" alt="ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item ">
-								<a class="" href="/social/general/655185">
-									<h3 class="item-text ">เปิดเทอมพร้อมกัน14มิ.ย.!! "ศบค." เผยข้อห้าม 4 จังหวัดสีแดงเข้ม</h3>
+								<a class="" href="/social/general/655387">
+									<h3 class="item-text ">แพทย์ชนบทเตือน14-20มิ.ย.สัปดาห์โกลาหลวัคซีนมีไม่พอ</h3>
 									<div class="item-photo bg-gradient ">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/A275E188B78C1EA6F9442F09B6C04F87_700.jpg 700w"  onerror="imgError(this);" alt="เปิดเทอมพร้อมกัน14มิ.ย.!! "ศบค." เผยข้อห้าม 4 จังหวัดสีแดงเข้ม" class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/360C5ED9614298484188709B6F116FC4_700.jpg 700w"  onerror="imgError(this);" alt="แพทย์ชนบทเตือน14-20มิ.ย.สัปดาห์โกลาหลวัคซีนมีไม่พอ" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
 							</div>
 														<div class="item ">
-								<a class="" href="/politic/news/655221">
-									<h3 class="item-text ">"ชวน" ชี้ "สิระ" พา "ลุงพล" เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ.</h3>
+								<a class="" href="/social/general/655365">
+									<h3 class="item-text ">ศบค.เผยไทยป่วยโควิดเพิ่ม 2,804 ราย เสียชีวิตอีก18</h3>
 									<div class="item-photo bg-gradient ">
 										<picture >
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_700.jpg 700w"  onerror="imgError(this);" alt=""ชวน" ชี้ "สิระ" พา "ลุงพล" เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ." class="img-fluid lazyload">
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/ACDA8BE2D1AF4505C9EAED02E95DF213_700.jpg 700w"  onerror="imgError(this);" alt="ศบค.เผยไทยป่วยโควิดเพิ่ม 2,804 ราย เสียชีวิตอีก18" class="img-fluid lazyload">
 										</picture>
 									</div>
 								</a>
@@ -680,58 +600,58 @@
 					<div class="box-list-breaking">
 						<ul>
 																						<li>
-									<div class="list-breaking--time breaking-time" data-time="1623382200"></div>
+									<div class="list-breaking--time breaking-time" data-time="1623578040"></div>
 									<div class="list-breaking">
-										<a href="https://www.posttoday.com/ent/news/655228" class="list-img">
+										<a href="https://www.posttoday.com/finance-stock/news/655412" class="list-img">
 											<picture>
-												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/D6741A65D1C81726C997AF3AB25985FC_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/D6741A65D1C81726C997AF3AB25985FC.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/D6741A65D1C81726C997AF3AB25985FC_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;เติ้ล ธนพล&quot; จากพระเอกดัง สู่ชีวิตพังพินาศ กระอักเลือดแทบเอาชีวิตไม่รอด ">
+												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/47D5367E3A1C3F519D3A0B4665346AD8_350.png' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/47D5367E3A1C3F519D3A0B4665346AD8.png"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/47D5367E3A1C3F519D3A0B4665346AD8_350.png 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="คลังย้ำ คนละครึ่งเฟส 3 ต้องลงทะเบียนใหม่ทุกคน">
 											</picture>
 										</a>
-										<a href="https://www.posttoday.com/ent/news/655228" class="list-text">&quot;เติ้ล ธนพล&quot; จากพระเอกดัง สู่ชีวิตพังพินาศ กระอักเลือดแทบเอาชีวิตไม่รอด </a>
+										<a href="https://www.posttoday.com/finance-stock/news/655412" class="list-text">คลังย้ำ คนละครึ่งเฟส 3 ต้องลงทะเบียนใหม่ทุกคน</a>
 									</div>
 								</li>
 															<li>
-									<div class="list-breaking--time breaking-time" data-time="1623381360"></div>
+									<div class="list-breaking--time breaking-time" data-time="1623576120"></div>
 									<div class="list-breaking">
-										<a href="https://www.posttoday.com/social/general/655246" class="list-img">
+										<a href="https://www.posttoday.com/social/local/655409" class="list-img">
 											<picture>
-												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/2A3188CD6E4125399D206A3CBB8D024D_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/2A3188CD6E4125399D206A3CBB8D024D.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/2A3188CD6E4125399D206A3CBB8D024D_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="สธ.เซ็นสัญญาจองวัคซีนไฟเซอร์ 20 ล้านโดส ส่งมอบในปีนี้">
+												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/6D86EB4E5D3A85ADE035943FCDB1584C_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/6D86EB4E5D3A85ADE035943FCDB1584C.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/6D86EB4E5D3A85ADE035943FCDB1584C_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="จระเข้บึงบอระพ็ดโผล่วางไข่ข้างศาลเจ้าแม่หมอนทอง">
 											</picture>
 										</a>
-										<a href="https://www.posttoday.com/social/general/655246" class="list-text">สธ.เซ็นสัญญาจองวัคซีนไฟเซอร์ 20 ล้านโดส ส่งมอบในปีนี้</a>
+										<a href="https://www.posttoday.com/social/local/655409" class="list-text">จระเข้บึงบอระพ็ดโผล่วางไข่ข้างศาลเจ้าแม่หมอนทอง</a>
 									</div>
 								</li>
 															<li>
-									<div class="list-breaking--time breaking-time" data-time="1623378840"></div>
+									<div class="list-breaking--time breaking-time" data-time="1623575580"></div>
 									<div class="list-breaking">
-										<a href="https://www.posttoday.com/finance-stock/news/655240" class="list-img">
+										<a href="https://www.posttoday.com/social/general/655411" class="list-img">
 											<picture>
-												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="บาทเปิด 31.11/13 บาทต่อดอลลาร์ แข็งค่า">
+												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/865852BE20F904DFB6643D1D7A1E85FF_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="กทม.แจงตั้งแต่7-14มิ.ย.ได้รับวัคซีน 5 แสนโดสไม่ใช่1ล้านโดสตามที่สธ.ระบุ">
 											</picture>
 										</a>
-										<a href="https://www.posttoday.com/finance-stock/news/655240" class="list-text">บาทเปิด 31.11/13 บาทต่อดอลลาร์ แข็งค่า</a>
+										<a href="https://www.posttoday.com/social/general/655411" class="list-text">กทม.แจงตั้งแต่7-14มิ.ย.ได้รับวัคซีน 5 แสนโดสไม่ใช่1ล้านโดสตามที่สธ.ระบุ</a>
 									</div>
 								</li>
 															<li>
-									<div class="list-breaking--time breaking-time" data-time="1623378600"></div>
+									<div class="list-breaking--time breaking-time" data-time="1623574800"></div>
 									<div class="list-breaking">
-										<a href="https://www.posttoday.com/finance-stock/news/655239" class="list-img">
+										<a href="https://www.posttoday.com/ent/news/655388" class="list-img">
 											<picture>
-												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ทองคำ 11 มิ.ย. ปรับขึ้น200 บาท">
+												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ทนายตั้ม” ขอเคียงข้าง “ลุงพล” ลือหึ่งมีแบ็กดี กังขาตร. ไม่เป็นกลาง">
 											</picture>
 										</a>
-										<a href="https://www.posttoday.com/finance-stock/news/655239" class="list-text">ทองคำ 11 มิ.ย. ปรับขึ้น200 บาท</a>
+										<a href="https://www.posttoday.com/ent/news/655388" class="list-text">“ทนายตั้ม” ขอเคียงข้าง “ลุงพล” ลือหึ่งมีแบ็กดี กังขาตร. ไม่เป็นกลาง</a>
 									</div>
 								</li>
 															<li>
-									<div class="list-breaking--time breaking-time" data-time="1623373140"></div>
+									<div class="list-breaking--time breaking-time" data-time="1623574320"></div>
 									<div class="list-breaking">
-										<a href="https://www.posttoday.com/politic/news/655238" class="list-img">
+										<a href="https://www.posttoday.com/politic/news/655408" class="list-img">
 											<picture>
-												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ธนกร”ขอบคุณ”บิ๊กตู่”หนุนนั่งเก้าอี้โฆษก ศบศ.">
+												<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg' media='(min-width: 300px)'><!--[if IE 9]></video><![endif]-->												<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส">
 											</picture>
 										</a>
-										<a href="https://www.posttoday.com/politic/news/655238" class="list-text">“ธนกร”ขอบคุณ”บิ๊กตู่”หนุนนั่งเก้าอี้โฆษก ศบศ.</a>
+										<a href="https://www.posttoday.com/politic/news/655408" class="list-text">รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส</a>
 									</div>
 								</li>
 													</ul>
@@ -801,6 +721,48 @@
 			</div>
 			<div class="box-list-circular">
 				<ul class="owl-carousel owl-theme owl-columnists">
+											<li class="item" data-cid="655374">
+							<div class="circular-img">
+								<a href="https://www.posttoday.com/politic/columnist/655374" title="สาธารณสุขมูลฐานโลกยุคใหม่">
+									<div class="circular--landscape">
+										<picture>
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/B97495470DE2AB0AB3EADADDDCC1A399_350.jpeg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/B97495470DE2AB0AB3EADADDDCC1A399.jpeg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/B97495470DE2AB0AB3EADADDDCC1A399_350.jpeg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="สาธารณสุขมูลฐานโลกยุคใหม่">
+										</picture>
+									</div>
+								</a>
+							</div>
+							<div class="circular-detail">
+								<div class="circular-text"><a href="https://www.posttoday.com/politic/columnist/655374">สาธารณสุขมูลฐานโลกยุคใหม่</a></div>
+							</div>
+						</li>
+											<li class="item" data-cid="655296">
+							<div class="circular-img">
+								<a href="https://www.posttoday.com/politic/columnist/655296" title="เรียนรัฐศาสตร์จากวรรณคดีไทย (7)">
+									<div class="circular--landscape">
+										<picture>
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/C2517D7C74EF931D6F08703303632396_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/C2517D7C74EF931D6F08703303632396.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/C2517D7C74EF931D6F08703303632396_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เรียนรัฐศาสตร์จากวรรณคดีไทย (7)">
+										</picture>
+									</div>
+								</a>
+							</div>
+							<div class="circular-detail">
+								<div class="circular-text"><a href="https://www.posttoday.com/politic/columnist/655296">เรียนรัฐศาสตร์จากวรรณคดีไทย (7)</a></div>
+							</div>
+						</li>
+											<li class="item" data-cid="655292">
+							<div class="circular-img">
+								<a href="https://www.posttoday.com/politic/columnist/655292" title="วุ่นวายหนอ สันติอยู่หนใด">
+									<div class="circular--landscape">
+										<picture>
+											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/B9A4F5A9EE723281F599F356DD8159E4_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/B9A4F5A9EE723281F599F356DD8159E4.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/B9A4F5A9EE723281F599F356DD8159E4_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="วุ่นวายหนอ สันติอยู่หนใด">
+										</picture>
+									</div>
+								</a>
+							</div>
+							<div class="circular-detail">
+								<div class="circular-text"><a href="https://www.posttoday.com/politic/columnist/655292">วุ่นวายหนอ สันติอยู่หนใด</a></div>
+							</div>
+						</li>
 											<li class="item" data-cid="655191">
 							<div class="circular-img">
 								<a href="https://www.posttoday.com/politic/columnist/655191" title="สปาย vs สปาย">
@@ -927,48 +889,6 @@
 								<div class="circular-text"><a href="https://www.posttoday.com/economy/columnist/654824">มองอนาคตไทยผ่าน...แผนพัฒนาเศรษฐกิจ-สังคมฉบับใหม่</a></div>
 							</div>
 						</li>
-											<li class="item" data-cid="654836">
-							<div class="circular-img">
-								<a href="https://www.posttoday.com/finance-stock/columnist/654836" title="เสียงสะท้อนจากการผู้ประกอบการค้าปลีก...หมดแรงกับหมดลม">
-									<div class="circular--landscape">
-										<picture>
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/07/F2F8D6F3687CB2D33121A91ABFA85EBC_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/07/F2F8D6F3687CB2D33121A91ABFA85EBC.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/07/F2F8D6F3687CB2D33121A91ABFA85EBC_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เสียงสะท้อนจากการผู้ประกอบการค้าปลีก...หมดแรงกับหมดลม">
-										</picture>
-									</div>
-								</a>
-							</div>
-							<div class="circular-detail">
-								<div class="circular-text"><a href="https://www.posttoday.com/finance-stock/columnist/654836">เสียงสะท้อนจากการผู้ประกอบการค้าปลีก...หมดแรงกับหมดลม</a></div>
-							</div>
-						</li>
-											<li class="item" data-cid="654835">
-							<div class="circular-img">
-								<a href="https://www.posttoday.com/finance-stock/columnist/654835" title="ตัวเลขเศรษฐกิจของจีน ประชุมนโยบายการเงินของยุโรป อัตราเงินเฟ้อของสหรัฐฯ">
-									<div class="circular--landscape">
-										<picture>
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/07/02277F1A271078507CDDCAEBBE53E9A8_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/07/02277F1A271078507CDDCAEBBE53E9A8.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/07/02277F1A271078507CDDCAEBBE53E9A8_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ตัวเลขเศรษฐกิจของจีน ประชุมนโยบายการเงินของยุโรป อัตราเงินเฟ้อของสหรัฐฯ">
-										</picture>
-									</div>
-								</a>
-							</div>
-							<div class="circular-detail">
-								<div class="circular-text"><a href="https://www.posttoday.com/finance-stock/columnist/654835">ตัวเลขเศรษฐกิจของจีน ประชุมนโยบายการเงินของยุโรป อัตราเงินเฟ้อของสหรัฐฯ</a></div>
-							</div>
-						</li>
-											<li class="item" data-cid="654785">
-							<div class="circular-img">
-								<a href="https://www.posttoday.com/politic/columnist/654785" title="&quot;ลดเครียด ลดหวาน&quot; เคล็ดลับการดูแลสุขภาพช่วง WFH">
-									<div class="circular--landscape">
-										<picture>
-											<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/06/1869AAA77D76D973379C35154352E339_350.jpeg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->											<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/06/1869AAA77D76D973379C35154352E339.jpeg"  data-srcset="https://static.posttoday.com/media/content/2021/06/06/1869AAA77D76D973379C35154352E339_350.jpeg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;ลดเครียด ลดหวาน&quot; เคล็ดลับการดูแลสุขภาพช่วง WFH">
-										</picture>
-									</div>
-								</a>
-							</div>
-							<div class="circular-detail">
-								<div class="circular-text"><a href="https://www.posttoday.com/politic/columnist/654785">&quot;ลดเครียด ลดหวาน&quot; เคล็ดลับการดูแลสุขภาพช่วง WFH</a></div>
-							</div>
-						</li>
 									</ul>
 			</div>
 		</div>
@@ -1023,14 +943,14 @@
 											ผู้ติดเชื้อ
 										</div>
 										<div class="box-num">
-											189,828										</div>
+											195,909										</div>
 									</div>
 									<div class="box-increase">
 										<div class="box-title">
 											เพิ่มขึ้น
 										</div>
 										<div class="box-num">
-											2,290										</div>
+											2,804										</div>
 									</div>
 								</li>
 								<li>
@@ -1038,21 +958,21 @@
 										หายแล้ว
 									</div>
 									<div class="box-num">
-										144,998									</div>
+										154,414									</div>
 								</li>
 								<li>
 									<div class="box-title">
 										กำลังรักษา
 									</div>
 									<div class="box-num">
-										43,428									</div>
+										40,046									</div>
 								</li>
 								<li>
 									<div class="box-title">
 										เสียชีวิต 
 									</div>
 									<div class="box-num">
-										1,402									</div>
+										1,449									</div>
 								</li>
 								<li>
 									<div class="box-title">
@@ -1086,13 +1006,31 @@
 						<h2>PostToday Channel</h2><a href="https://www.posttoday.com/vdo">ดูทั้งหมด ></a>
 					</div>
 					<ul class="box-ptd-channel owl-carousel owl-theme owl-channel">
-													<li class="item ads-list" data-cid="655124">
-								<a href="https://www.posttoday.com/politic/news/655124" title="ลุ้น 14 มิ.ย.เปิดเทอมได้ไม่ได้!! ติดเชื้อพุ่ง-ฉีดวัคซีนยังป่วน" class="box-channel ads-link">
+													<li class="item ads-list" data-cid="655382">
+								<a href="https://www.posttoday.com/politic/news/655382" title="จับตา&quot;ธรรมนัส&quot;ขึ้นแท่นเลขาพปชร.จัดทัพในพรรครับมือเลือกตั้ง...???" class="box-channel ads-link">
 									<span class="box-sponser-ad ads-label" style="display:none;">sponsored</span>									<span class="box-channel--play ads-remove"><img src="https://static.posttoday.com/v5/assets/images/icon/icn-play.svg" class="lazyload"></span>
 									<picture class="ads-picture">
-										<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->										<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9_500.jpg 500w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ลุ้น 14 มิ.ย.เปิดเทอมได้ไม่ได้!! ติดเชื้อพุ่ง-ฉีดวัคซีนยังป่วน">
+										<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/91188D40C8B0F8E50B5433A5F9890E64_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/91188D40C8B0F8E50B5433A5F9890E64_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->										<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/91188D40C8B0F8E50B5433A5F9890E64.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/91188D40C8B0F8E50B5433A5F9890E64_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/91188D40C8B0F8E50B5433A5F9890E64_500.jpg 500w"  onerror="imgError(this);" class="img-fluid lazyload" alt="จับตา&quot;ธรรมนัส&quot;ขึ้นแท่นเลขาพปชร.จัดทัพในพรรครับมือเลือกตั้ง...???">
 									</picture>
-									<div class="box-channel--text"><a class="ads-link-text" href="https://www.posttoday.com/politic/news/655124">ลุ้น 14 มิ.ย.เปิดเทอมได้ไม่ได้!! ติดเชื้อพุ่ง-ฉีดวัคซีนยังป่วน</a></div>
+									<div class="box-channel--text"><a class="ads-link-text" href="https://www.posttoday.com/politic/news/655382">จับตา&quot;ธรรมนัส&quot;ขึ้นแท่นเลขาพปชร.จัดทัพในพรรครับมือเลือกตั้ง...???</a></div>
+								</a>
+							</li>
+													<li class="item " data-cid="655257">
+								<a href="https://www.posttoday.com/politic/news/655257" title="พรก.กู้เงิน5แสนล้านฉลุย บิ๊กตู่เอาไปสู้โควิดฟื้นไม่ฟื้น!!!" class="box-channel ">
+																		<span class="box-channel--play "><img src="https://static.posttoday.com/v5/assets/images/icon/icn-play.svg" class="lazyload"></span>
+									<picture class="">
+										<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/5799A31373DA9C62D6F50134C7769DED_350.jpeg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->										<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/5799A31373DA9C62D6F50134C7769DED.jpeg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/5799A31373DA9C62D6F50134C7769DED_350.jpeg 350w,https://static.posttoday.com/media/content/2021/06/11/5799A31373DA9C62D6F50134C7769DED_500.jpeg 500w"  onerror="imgError(this);" class="img-fluid lazyload" alt="พรก.กู้เงิน5แสนล้านฉลุย บิ๊กตู่เอาไปสู้โควิดฟื้นไม่ฟื้น!!!">
+									</picture>
+									<div class="box-channel--text"><a class="" href="https://www.posttoday.com/politic/news/655257">พรก.กู้เงิน5แสนล้านฉลุย บิ๊กตู่เอาไปสู้โควิดฟื้นไม่ฟื้น!!!</a></div>
+								</a>
+							</li>
+													<li class="item " data-cid="655124">
+								<a href="https://www.posttoday.com/politic/news/655124" title="ลุ้น 14 มิ.ย.เปิดเทอมได้ไม่ได้!! ติดเชื้อพุ่ง-ฉีดวัคซีนยังป่วน" class="box-channel ">
+																		<span class="box-channel--play "><img src="https://static.posttoday.com/v5/assets/images/icon/icn-play.svg" class="lazyload"></span>
+									<picture class="">
+										<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->										<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/09/379A407FDE5EAED483F9AAC41BF61FC9_500.jpg 500w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ลุ้น 14 มิ.ย.เปิดเทอมได้ไม่ได้!! ติดเชื้อพุ่ง-ฉีดวัคซีนยังป่วน">
+									</picture>
+									<div class="box-channel--text"><a class="" href="https://www.posttoday.com/politic/news/655124">ลุ้น 14 มิ.ย.เปิดเทอมได้ไม่ได้!! ติดเชื้อพุ่ง-ฉีดวัคซีนยังป่วน</a></div>
 								</a>
 							</li>
 													<li class="item " data-cid="655005">
@@ -1102,24 +1040,6 @@
 										<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/08/0416B7AE9D6CCD12FDD88C7C17647BB3_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->										<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/08/0416B7AE9D6CCD12FDD88C7C17647BB3.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/08/0416B7AE9D6CCD12FDD88C7C17647BB3_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/08/0416B7AE9D6CCD12FDD88C7C17647BB3_500.jpg 500w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ลุงตู่”ขอโทษประชาชนไม่ได้รับความสะดวก-ถูกเลื่อนคิววัคซีน">
 									</picture>
 									<div class="box-channel--text"><a class="" href="https://www.posttoday.com/politic/news/655005">“ลุงตู่”ขอโทษประชาชนไม่ได้รับความสะดวก-ถูกเลื่อนคิววัคซีน</a></div>
-								</a>
-							</li>
-													<li class="item " data-cid="654926">
-								<a href="https://www.posttoday.com/politic/news/654926" title="ปูพรมฉีดวัคซีนทั่วไทย!!!“ลุงตู่”เรียกความเชื่อมั่นได้ไหม ???" class="box-channel ">
-																		<span class="box-channel--play "><img src="https://static.posttoday.com/v5/assets/images/icon/icn-play.svg" class="lazyload"></span>
-									<picture class="">
-										<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/08/852EB679452274069C91AE04489FA269_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->										<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/08/852EB679452274069C91AE04489FA269.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/08/852EB679452274069C91AE04489FA269_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/08/852EB679452274069C91AE04489FA269_500.jpg 500w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ปูพรมฉีดวัคซีนทั่วไทย!!!“ลุงตู่”เรียกความเชื่อมั่นได้ไหม ???">
-									</picture>
-									<div class="box-channel--text"><a class="" href="https://www.posttoday.com/politic/news/654926">ปูพรมฉีดวัคซีนทั่วไทย!!!“ลุงตู่”เรียกความเชื่อมั่นได้ไหม ???</a></div>
-								</a>
-							</li>
-													<li class="item " data-cid="654575">
-								<a href="https://www.posttoday.com/politic/news/654575" title="แอสตร้าฯมาแล้ว!!!จับตามิ.ย.วัคซีนโควิดมาตามแผนไหม??" class="box-channel ">
-																		<span class="box-channel--play "><img src="https://static.posttoday.com/v5/assets/images/icon/icn-play.svg" class="lazyload"></span>
-									<picture class="">
-										<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/02/5DB2452BB39A495897958D39EA4B1C32_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->										<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/02/5DB2452BB39A495897958D39EA4B1C32.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/02/5DB2452BB39A495897958D39EA4B1C32_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/02/5DB2452BB39A495897958D39EA4B1C32_500.jpg 500w"  onerror="imgError(this);" class="img-fluid lazyload" alt="แอสตร้าฯมาแล้ว!!!จับตามิ.ย.วัคซีนโควิดมาตามแผนไหม??">
-									</picture>
-									<div class="box-channel--text"><a class="" href="https://www.posttoday.com/politic/news/654575">แอสตร้าฯมาแล้ว!!!จับตามิ.ย.วัคซีนโควิดมาตามแผนไหม??</a></div>
 								</a>
 							</li>
 											</ul>
@@ -1238,6 +1158,15 @@
 
 						<li class="item">
 					<div class="list-v">
+						<a href="/economy/news/655277">
+						<h3 class="item-text">บีโอไอเชื่อมโยงข้อมูลแบบ ภ.ง.ด.50 จากกรมสรรพากรโดยอัตโนมัติ</h3>
+						<div class="item-photo bg-gradient"><img src="https://static.posttoday.com/media/content/2021/06/11/6760F6D462BD2992928A88791EAAE265.jpg" class="img-fluid" alt=""></div>
+						</a>
+					</div>
+					
+				</li>
+							<li class="item">
+					<div class="list-v">
 						<a href="/economy/news/655247">
 						<h3 class="item-text">บีโอไอจัดประชุมสร้างเครือข่ายกลุ่มอุตฯ เครื่องมือแพทย์และสุขภาพ</h3>
 						<div class="item-photo bg-gradient"><img src="https://static.posttoday.com/media/content/2021/06/11/547E0563F50C938BB72A29CEBB6C4224.jpg" class="img-fluid" alt=""></div>
@@ -1257,7 +1186,7 @@
 							<li class="item">
 					<div class="list-v">
 						<a href="/economy/news/655147">
-						<h3 class="item-text">บีโอไอ ไทเป เชิญร่วมสัมมนาออนไลน์การลงทุนในอุตฯ ดิจิทัลและเครือข่ายสตาร์ทอัพ</h3>
+						<h3 class="item-text">บีโอไอ เชิญร่วมสัมมนาออนไลน์การลงทุนในอุตฯ ดิจิทัลและเครือข่ายสตาร์ทอัพ</h3>
 						<div class="item-photo bg-gradient"><img src="https://static.posttoday.com/media/content/2021/06/10/88A6EDB9BEE03DBC7AE691B9D2E35BBF.jpg" class="img-fluid" alt=""></div>
 						</a>
 					</div>
@@ -1277,15 +1206,6 @@
 						<a href="/economy/news/654666">
 						<h3 class="item-text">บีโอไอ แฟรงก์เฟิร์ต และ สถานทูตไทยในเบิร์น จัดสัมมนาออนไลน์ฉลอง 90 ปี ความสัมพันธ์สวิส-ไทย</h3>
 						<div class="item-photo bg-gradient"><img src="https://static.posttoday.com/media/content/2021/06/04/24DF951B08C108A168A677663B38D9AE.jpg" class="img-fluid" alt=""></div>
-						</a>
-					</div>
-					
-				</li>
-							<li class="item">
-					<div class="list-v">
-						<a href="/economy/news/654414">
-						<h3 class="item-text">บีโอไอเชิญร่วมงานสัมมนาออนไลน์ &quot;1st Netherlands Thai Business Forum - Think Resilience, Think Thailand&quot;</h3>
-						<div class="item-photo bg-gradient"><img src="https://static.posttoday.com/media/content/2021/06/01/EB66461CA1523D16701BC19E0F100F3C.jpg" class="img-fluid" alt=""></div>
 						</a>
 					</div>
 					
@@ -1393,7 +1313,7 @@
 								</div>
 
 							</div>
-							<div class="box-info--ps">ข้อมูล : ปตท อัพเดทวันที่ 11 มิถุนายน 2564</div>
+							<div class="box-info--ps">ข้อมูล : ปตท อัพเดทวันที่ 13 มิถุนายน 2564</div>
 						</div>
 					</div><!-- end oil -->
 					<!-- gold -->
@@ -1408,16 +1328,16 @@
 								</div>
 								<div class="box-info--row">
 									<div class="box-info--col col1">ทองคำแท่ง</div>
-									<div class="box-info--col col1 text-right">27,850.00</div>
-									<div class="box-info--col col1 text-right">27,950.00</div>
+									<div class="box-info--col col1 text-right">27,550.00</div>
+									<div class="box-info--col col1 text-right">27,650.00</div>
 								</div>
 								<div class="box-info--row">
 									<div class="box-info--col col1">ทองรูปพรรณ</div>
-									<div class="box-info--col col1 text-right">27,348.64</div>
-									<div class="box-info--col col1 text-right">28,450.00</div>
+									<div class="box-info--col col1 text-right">27,060.60</div>
+									<div class="box-info--col col1 text-right">28,150.00</div>
 								</div>
 							</div>
-							<div class="box-info--ps">ข้อมูล : สมาคมค้าทอง อัพเดทวันที่ 11 มิถุนายน 2564</div>
+							<div class="box-info--ps">ข้อมูล : สมาคมค้าทอง อัพเดทวันที่ 12 มิถุนายน 2564</div>
 						</div>
 					</div><!-- end gold -->
 					<!-- invest -->
@@ -1432,31 +1352,31 @@
 								</div>
 																											<div class="box-info--row">
 											<div class="box-info--col col1">SET</div>
-											<div class="box-info--col col1 text-right">1,633.51</div>
-																							<div class="box-info--col col1 text-right"><span class="settrade up">+8.24</span></div>
+											<div class="box-info--col col1 text-right">1,636.56</div>
+																							<div class="box-info--col col1 text-right"><span class="settrade up">+11.29</span></div>
 																					</div>
 																																				<div class="box-info--row">
 											<div class="box-info--col col1">SET50</div>
-											<div class="box-info--col col1 text-right">987.32</div>
-																							<div class="box-info--col col1 text-right"><span class="settrade up">+5.72</span></div>
+											<div class="box-info--col col1 text-right">990.78</div>
+																							<div class="box-info--col col1 text-right"><span class="settrade up">+9.18</span></div>
 																					</div>
 																																				<div class="box-info--row">
 											<div class="box-info--col col1">SET100</div>
-											<div class="box-info--col col1 text-right">2,245.59</div>
-																							<div class="box-info--col col1 text-right"><span class="settrade up">+13.15</span></div>
+											<div class="box-info--col col1 text-right">2,251.77</div>
+																							<div class="box-info--col col1 text-right"><span class="settrade up">+19.33</span></div>
 																					</div>
 																																				<div class="box-info--row">
 											<div class="box-info--col col1">sSET</div>
-											<div class="box-info--col col1 text-right">1,029.73</div>
-																							<div class="box-info--col col1 text-right"><span class="settrade up">+2.15</span></div>
+											<div class="box-info--col col1 text-right">1,023.45</div>
+																							<div class="box-info--col col1 text-right "><span class="settrade down">-4.13</span></div>
 																					</div>
 																																				<div class="box-info--row">
 											<div class="box-info--col col1">SETCLMV</div>
-											<div class="box-info--col col1 text-right">1,051.33</div>
-																							<div class="box-info--col col1 text-right"><span class="settrade up">+5.87</span></div>
+											<div class="box-info--col col1 text-right">1,050.14</div>
+																							<div class="box-info--col col1 text-right"><span class="settrade up">+4.68</span></div>
 																					</div>
 																																																										</div>
-							<div class="box-info--ps">ข้อมูล : settrade.com อัพเดทวันที่ 11 มิถุนายน 2564</div>
+							<div class="box-info--ps">ข้อมูล : settrade.com อัพเดทวันที่ 13 มิถุนายน 2564</div>
 						</div>
 					</div>
 
@@ -1492,7 +1412,7 @@
 							<a href="/life/horo/">ดวงรอบสัปดาห์ <span><img src="https://static.posttoday.com/v5/assets/images/icon/icn-horoscope.svg?v=3" alt=""></span></a>
 							</div>
 							<div class="horo-bg">
-								<div class="horo-text"><a href="https://www.posttoday.com/life/horo/654800" title="ดวงรอบสัปดาห์ทำนายระหว่างวันที่ 7-13 มิ.ย.64">คำทำนายระหว่าง<span>วันที่  7-13 มิ.ย.64</span></a></div>
+								<div class="horo-text"><a href="https://www.posttoday.com/life/horo/655404" title="ดวงรอบสัปดาห์ทำนายระหว่างวันที่ 14-20 มิ.ย.64">คำทำนายระหว่าง<span>วันที่  14-20 มิ.ย.64</span></a></div>
 							</div>
 						</div>
 					</div>
@@ -1524,73 +1444,73 @@
 				</div>
 				<div class="box-list-square box-world">
 					<ul class="row">
-																					<li class="col-12 col-md-6 item" data-cid="655218">
+																					<li class="col-12 col-md-6 item" data-cid="655407">
 									<div class="box-list--square">
 										<div class="box-list--image">
-											<a href="https://www.posttoday.com/world/655218" title="เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท">
+											<a href="https://www.posttoday.com/world/655407" title="เผยแผนการ G7 จะมอบวัคซีนโควิด 1 พันล้านโดส">
 												<picture class="img-size-section-large">
-													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/438E33CF17E947A0CF1D4833C4AE24C6_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท">
+													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/F1AB4B0C840394C79C486F8BEA770B17_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/F1AB4B0C840394C79C486F8BEA770B17_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/F1AB4B0C840394C79C486F8BEA770B17.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/F1AB4B0C840394C79C486F8BEA770B17_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/F1AB4B0C840394C79C486F8BEA770B17_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/F1AB4B0C840394C79C486F8BEA770B17_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เผยแผนการ G7 จะมอบวัคซีนโควิด 1 พันล้านโดส">
 												</picture>
 											</a>
 										</div>
 										<div class="box-list--text">
-											<a href="https://www.posttoday.com/world/655218" title="เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท">เปิดที่มาเหรียญสหรัฐที่ถูกประมูลไปกว่า 580 ล้านบาท</a>
+											<a href="https://www.posttoday.com/world/655407" title="เผยแผนการ G7 จะมอบวัคซีนโควิด 1 พันล้านโดส">เผยแผนการ G7 จะมอบวัคซีนโควิด 1 พันล้านโดส</a>
 										</div>
 									</div>
 								</li>
-																												<li class="col-12 col-md-6 item" data-cid="655195">
+																												<li class="col-12 col-md-6 item" data-cid="655397">
 									<div class="box-list--square">
 										<div class="box-list--image">
-											<a href="https://www.posttoday.com/world/655195" title="เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง">
+											<a href="https://www.posttoday.com/world/655397" title="ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว">
 												<picture class="img-size-section-large">
-													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/602FE7BCCB77C802D63A44CF0AB7246E_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง">
+													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/5D91E4480EF531D0AC16ECB6AA797EE7_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว">
 												</picture>
 											</a>
 										</div>
 										<div class="box-list--text">
-											<a href="https://www.posttoday.com/world/655195" title="เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง">เอาไม่อยู่! ฉีดวัคซีนครึ่งประเทศแต่เคสติดเชื้อยังพุ่ง</a>
+											<a href="https://www.posttoday.com/world/655397" title="ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว">ยักษ์ใหญ่การเงินสหรัฐเขยิบเข้าหา Crypto-Bitcoin อย่างระวังตัว</a>
 										</div>
 									</div>
 								</li>
-																												<li class="col-12 col-md-4 item" data-cid="655186">
+																												<li class="col-12 col-md-4 item" data-cid="655377">
 									<div class="box-list--square">
 										<div class="box-list--image">
-											<a href="https://www.posttoday.com/world/655186" title="เอลซัลวาดอร์มุ่งสร้างเหมือง Bitcoin พลังงานภูเขาไฟ">
+											<a href="https://www.posttoday.com/world/655377" title="ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์">
 												<picture class="img-size-section-small">
-													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/14FCE2C5BBF5055280AF6435C0FBDB6B_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/14FCE2C5BBF5055280AF6435C0FBDB6B.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/14FCE2C5BBF5055280AF6435C0FBDB6B_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/14FCE2C5BBF5055280AF6435C0FBDB6B_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/14FCE2C5BBF5055280AF6435C0FBDB6B_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เอลซัลวาดอร์มุ่งสร้างเหมือง Bitcoin พลังงานภูเขาไฟ">
+													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/66507A9F2ABC37B27F9AD218BC749D8E_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์">
 												</picture>
 											</a>
 										</div>
 										<div class="box-list--text">
-											<a href="https://www.posttoday.com/world/655186" title="เอลซัลวาดอร์มุ่งสร้างเหมือง Bitcoin พลังงานภูเขาไฟ">เอลซัลวาดอร์มุ่งสร้างเหมือง Bitcoin พลังงานภูเขาไฟ</a>
+											<a href="https://www.posttoday.com/world/655377" title="ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์">ผู้เชี่ยวชาญชี้วัคซีนจีนมีประสิทธิภาพต้านโควิด-19 ชนิดกลายพันธุ์</a>
 										</div>
 									</div>
 								</li>
-																												<li class="col-12 col-md-4 item" data-cid="655180">
+																												<li class="col-12 col-md-4 item" data-cid="655375">
 									<div class="box-list--square">
 										<div class="box-list--image">
-											<a href="https://www.posttoday.com/world/655180" title="แฉมหาเศรษฐีอเมริกันเลี่ยงภาษีอื้อ">
+											<a href="https://www.posttoday.com/world/655375" title="อดีตเจ้าหน้าที่ไล่ล่า UFO เผยพวกมันแทรกแซงนิวเคลียร์สหรัฐ">
 												<picture class="img-size-section-small">
-													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/4A72BDCDE6D25263FE70D11CF7745FA6_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/4A72BDCDE6D25263FE70D11CF7745FA6.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/4A72BDCDE6D25263FE70D11CF7745FA6_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/4A72BDCDE6D25263FE70D11CF7745FA6_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/4A72BDCDE6D25263FE70D11CF7745FA6_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="แฉมหาเศรษฐีอเมริกันเลี่ยงภาษีอื้อ">
+													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/26B6C9D52C723DCF32A4E7ECDCB42378_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/26B6C9D52C723DCF32A4E7ECDCB42378.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/26B6C9D52C723DCF32A4E7ECDCB42378_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/26B6C9D52C723DCF32A4E7ECDCB42378_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/26B6C9D52C723DCF32A4E7ECDCB42378_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="อดีตเจ้าหน้าที่ไล่ล่า UFO เผยพวกมันแทรกแซงนิวเคลียร์สหรัฐ">
 												</picture>
 											</a>
 										</div>
 										<div class="box-list--text">
-											<a href="https://www.posttoday.com/world/655180" title="แฉมหาเศรษฐีอเมริกันเลี่ยงภาษีอื้อ">แฉมหาเศรษฐีอเมริกันเลี่ยงภาษีอื้อ</a>
+											<a href="https://www.posttoday.com/world/655375" title="อดีตเจ้าหน้าที่ไล่ล่า UFO เผยพวกมันแทรกแซงนิวเคลียร์สหรัฐ">อดีตเจ้าหน้าที่ไล่ล่า UFO เผยพวกมันแทรกแซงนิวเคลียร์สหรัฐ</a>
 										</div>
 									</div>
 								</li>
-																												<li class="col-12 col-md-4 item" data-cid="655161">
+																												<li class="col-12 col-md-4 item" data-cid="655353">
 									<div class="box-list--square">
 										<div class="box-list--image">
-											<a href="https://www.posttoday.com/world/655161" title="ทางการเมียนมาเพิ่มข้อหาคอร์รัปชันอองซานซูจี">
+											<a href="https://www.posttoday.com/world/655353" title="พรรคฝ่ายค้านเกาหลีใต้สร้างประวัติศาสตร์เลือกคนรุ่นใหม่ชิงเก้าอี้ผู้นำ">
 												<picture class="img-size-section-small">
-													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/8C3687FC7D152556FCF7A1F5EAA58A47_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/8C3687FC7D152556FCF7A1F5EAA58A47.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/8C3687FC7D152556FCF7A1F5EAA58A47_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/8C3687FC7D152556FCF7A1F5EAA58A47_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/8C3687FC7D152556FCF7A1F5EAA58A47_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ทางการเมียนมาเพิ่มข้อหาคอร์รัปชันอองซานซูจี">
+													<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/12/71335ED578DE762E51D37FBECAC66FC0_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->													<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/12/71335ED578DE762E51D37FBECAC66FC0.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/12/71335ED578DE762E51D37FBECAC66FC0_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/12/71335ED578DE762E51D37FBECAC66FC0_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/12/71335ED578DE762E51D37FBECAC66FC0_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="พรรคฝ่ายค้านเกาหลีใต้สร้างประวัติศาสตร์เลือกคนรุ่นใหม่ชิงเก้าอี้ผู้นำ">
 												</picture>
 											</a>
 										</div>
 										<div class="box-list--text">
-											<a href="https://www.posttoday.com/world/655161" title="ทางการเมียนมาเพิ่มข้อหาคอร์รัปชันอองซานซูจี">ทางการเมียนมาเพิ่มข้อหาคอร์รัปชันอองซานซูจี</a>
+											<a href="https://www.posttoday.com/world/655353" title="พรรคฝ่ายค้านเกาหลีใต้สร้างประวัติศาสตร์เลือกคนรุ่นใหม่ชิงเก้าอี้ผู้นำ">พรรคฝ่ายค้านเกาหลีใต้สร้างประวัติศาสตร์เลือกคนรุ่นใหม่ชิงเก้าอี้ผู้นำ</a>
 										</div>
 									</div>
 								</li>
@@ -1607,73 +1527,73 @@
 				<div class="box-list-square">
 					<div class="box-list-square box-ent">
 						<ul class="row">
-																								<li class="col-12 col-md-6 item" data-cid="655224">
+																								<li class="col-12 col-md-6 item" data-cid="655388">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/ent/news/655224" title="&quot;ดิว อริสรา&quot; ควง &quot;เซบาสเตียน&quot; เที่ยวเกาะสมุย หวานจนน้ำทะเลจะเป็นน้ำเชื่อม">
+												<a href="https://www.posttoday.com/ent/news/655388" title="“ทนายตั้ม” ขอเคียงข้าง “ลุงพล” ลือหึ่งมีแบ็กดี กังขาตร. ไม่เป็นกลาง">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/2674F21A9A1F1E34A36A7E2B2FFAE994_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/2674F21A9A1F1E34A36A7E2B2FFAE994_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/2674F21A9A1F1E34A36A7E2B2FFAE994.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/2674F21A9A1F1E34A36A7E2B2FFAE994_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/2674F21A9A1F1E34A36A7E2B2FFAE994_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/2674F21A9A1F1E34A36A7E2B2FFAE994_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;ดิว อริสรา&quot; ควง &quot;เซบาสเตียน&quot; เที่ยวเกาะสมุย หวานจนน้ำทะเลจะเป็นน้ำเชื่อม">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/4E3184CCB828EFB5D59E2FFAE7439F7C_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ทนายตั้ม” ขอเคียงข้าง “ลุงพล” ลือหึ่งมีแบ็กดี กังขาตร. ไม่เป็นกลาง">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/ent/news/655224" title="&quot;ดิว อริสรา&quot; ควง &quot;เซบาสเตียน&quot; เที่ยวเกาะสมุย หวานจนน้ำทะเลจะเป็นน้ำเชื่อม">&quot;ดิว อริสรา&quot; ควง &quot;เซบาสเตียน&quot; เที่ยวเกาะสมุย หวานจนน้ำทะเลจะเป็นน้ำเชื่อม</a>
+												<a href="https://www.posttoday.com/ent/news/655388" title="“ทนายตั้ม” ขอเคียงข้าง “ลุงพล” ลือหึ่งมีแบ็กดี กังขาตร. ไม่เป็นกลาง">“ทนายตั้ม” ขอเคียงข้าง “ลุงพล” ลือหึ่งมีแบ็กดี กังขาตร. ไม่เป็นกลาง</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-6 item" data-cid="655213">
+																																<li class="col-12 col-md-6 item" data-cid="655386">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/ent/news/655213" title="&quot;ดีเจเพชรจ้า&quot; พูดชัดอย่าโยงมั่ว ถ้าไม่เคลียร์จะฟ้องให้หมดและครอบครัวยังแฮปปี้ดี">
+												<a href="https://www.posttoday.com/ent/news/655386" title="“ชมพู่ อารยา” หลบให้ไว! “แทค ภรัณยู” ขอโคฟเวอร์เป็นแม่เป๊ะตั้งแต่หัวจรดเท้า">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/EE09D91FEB19A0777AD966758467B542_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/EE09D91FEB19A0777AD966758467B542_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/EE09D91FEB19A0777AD966758467B542.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/EE09D91FEB19A0777AD966758467B542_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/EE09D91FEB19A0777AD966758467B542_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/EE09D91FEB19A0777AD966758467B542_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;ดีเจเพชรจ้า&quot; พูดชัดอย่าโยงมั่ว ถ้าไม่เคลียร์จะฟ้องให้หมดและครอบครัวยังแฮปปี้ดี">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/76ED1951F27D071B20655B4AB2781377_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/76ED1951F27D071B20655B4AB2781377_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/76ED1951F27D071B20655B4AB2781377.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/76ED1951F27D071B20655B4AB2781377_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/76ED1951F27D071B20655B4AB2781377_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/76ED1951F27D071B20655B4AB2781377_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ชมพู่ อารยา” หลบให้ไว! “แทค ภรัณยู” ขอโคฟเวอร์เป็นแม่เป๊ะตั้งแต่หัวจรดเท้า">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/ent/news/655213" title="&quot;ดีเจเพชรจ้า&quot; พูดชัดอย่าโยงมั่ว ถ้าไม่เคลียร์จะฟ้องให้หมดและครอบครัวยังแฮปปี้ดี">&quot;ดีเจเพชรจ้า&quot; พูดชัดอย่าโยงมั่ว ถ้าไม่เคลียร์จะฟ้องให้หมดและครอบครัวยังแฮปปี้ดี</a>
+												<a href="https://www.posttoday.com/ent/news/655386" title="“ชมพู่ อารยา” หลบให้ไว! “แทค ภรัณยู” ขอโคฟเวอร์เป็นแม่เป๊ะตั้งแต่หัวจรดเท้า">“ชมพู่ อารยา” หลบให้ไว! “แทค ภรัณยู” ขอโคฟเวอร์เป็นแม่เป๊ะตั้งแต่หัวจรดเท้า</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655200">
+																																<li class="col-12 col-md-4 item" data-cid="655398">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/ent/news/655200" title="“ขนมจีน” พาลูกน้อย “น้องไคเด้น” ถ่ายภาพแฟชั่นแรกเกิดในคอนเซ็ปต์นักรบ">
+												<a href="https://www.posttoday.com/ent/news/655398" title="วงการนางงามเศร้า Miss International Queen Myanmar 2020 เสียชีวิตจากอุบัติเหตุ">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/97E2392880ED2A6E7C2DED54C6DAFD36_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/97E2392880ED2A6E7C2DED54C6DAFD36.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/97E2392880ED2A6E7C2DED54C6DAFD36_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ขนมจีน” พาลูกน้อย “น้องไคเด้น” ถ่ายภาพแฟชั่นแรกเกิดในคอนเซ็ปต์นักรบ">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/047E26F614162B82B828DFF4176B15C3_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/047E26F614162B82B828DFF4176B15C3.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/047E26F614162B82B828DFF4176B15C3_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="วงการนางงามเศร้า Miss International Queen Myanmar 2020 เสียชีวิตจากอุบัติเหตุ">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/ent/news/655200" title="“ขนมจีน” พาลูกน้อย “น้องไคเด้น” ถ่ายภาพแฟชั่นแรกเกิดในคอนเซ็ปต์นักรบ">“ขนมจีน” พาลูกน้อย “น้องไคเด้น” ถ่ายภาพแฟชั่นแรกเกิดในคอนเซ็ปต์นักรบ</a>
+												<a href="https://www.posttoday.com/ent/news/655398" title="วงการนางงามเศร้า Miss International Queen Myanmar 2020 เสียชีวิตจากอุบัติเหตุ">วงการนางงามเศร้า Miss International Queen Myanmar 2020 เสียชีวิตจากอุบัติเหตุ</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655188">
+																																<li class="col-12 col-md-4 item" data-cid="655384">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/ent/news/655188" title="“ยิปซี–เนะ-ปาย” สุดซึ้งแฟนๆ ยกให้เป็นพี่สาวแห่งชาติ 2021">
+												<a href="https://www.posttoday.com/ent/news/655384" title="นี่คือหุ่นคนท้อง! “ปุ้มปุ้ย พรรณทิพา” โชว์ครรภ์ 6 สัปดาห์  ยังแซ่บและปังมาก">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/78EC8F88F2CDFEE15AE126EDBA6C9373_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/78EC8F88F2CDFEE15AE126EDBA6C9373.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/78EC8F88F2CDFEE15AE126EDBA6C9373_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ยิปซี–เนะ-ปาย” สุดซึ้งแฟนๆ ยกให้เป็นพี่สาวแห่งชาติ 2021">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/EB310A1D8B0FD105A607B1E12DA93AB0_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/EB310A1D8B0FD105A607B1E12DA93AB0.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/EB310A1D8B0FD105A607B1E12DA93AB0_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="นี่คือหุ่นคนท้อง! “ปุ้มปุ้ย พรรณทิพา” โชว์ครรภ์ 6 สัปดาห์  ยังแซ่บและปังมาก">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/ent/news/655188" title="“ยิปซี–เนะ-ปาย” สุดซึ้งแฟนๆ ยกให้เป็นพี่สาวแห่งชาติ 2021">“ยิปซี–เนะ-ปาย” สุดซึ้งแฟนๆ ยกให้เป็นพี่สาวแห่งชาติ 2021</a>
+												<a href="https://www.posttoday.com/ent/news/655384" title="นี่คือหุ่นคนท้อง! “ปุ้มปุ้ย พรรณทิพา” โชว์ครรภ์ 6 สัปดาห์  ยังแซ่บและปังมาก">นี่คือหุ่นคนท้อง! “ปุ้มปุ้ย พรรณทิพา” โชว์ครรภ์ 6 สัปดาห์  ยังแซ่บและปังมาก</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655178">
+																																<li class="col-12 col-md-4 item" data-cid="655381">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/ent/news/655178" title="&quot;ไทด์ เอกพันธ์&quot; เข้ารับการฉีดวัคซีนโควิด-19 แต่กลัวเข็มหนักมากยอมเพื่อแม่! ">
+												<a href="https://www.posttoday.com/ent/news/655381" title="&quot;มดดำ&quot; น้ำตาไหล! หลัง &quot;ม้า อรนภา&quot; เล่าชีวิตที่เจอกระแสดราม่าถล่มทำอะไรก็ผิด">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/AFC74F64A00B07C6568537A57DE590B9_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/AFC74F64A00B07C6568537A57DE590B9.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/AFC74F64A00B07C6568537A57DE590B9_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;ไทด์ เอกพันธ์&quot; เข้ารับการฉีดวัคซีนโควิด-19 แต่กลัวเข็มหนักมากยอมเพื่อแม่! ">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/772749D4E89921A2165E8033A9B755B9_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/772749D4E89921A2165E8033A9B755B9.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/772749D4E89921A2165E8033A9B755B9_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;มดดำ&quot; น้ำตาไหล! หลัง &quot;ม้า อรนภา&quot; เล่าชีวิตที่เจอกระแสดราม่าถล่มทำอะไรก็ผิด">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/ent/news/655178" title="&quot;ไทด์ เอกพันธ์&quot; เข้ารับการฉีดวัคซีนโควิด-19 แต่กลัวเข็มหนักมากยอมเพื่อแม่! ">&quot;ไทด์ เอกพันธ์&quot; เข้ารับการฉีดวัคซีนโควิด-19 แต่กลัวเข็มหนักมากยอมเพื่อแม่! </a>
+												<a href="https://www.posttoday.com/ent/news/655381" title="&quot;มดดำ&quot; น้ำตาไหล! หลัง &quot;ม้า อรนภา&quot; เล่าชีวิตที่เจอกระแสดราม่าถล่มทำอะไรก็ผิด">&quot;มดดำ&quot; น้ำตาไหล! หลัง &quot;ม้า อรนภา&quot; เล่าชีวิตที่เจอกระแสดราม่าถล่มทำอะไรก็ผิด</a>
 											</div>
 										</div>
 									</li>
@@ -1691,73 +1611,73 @@
 				<div class="box-list-square">
 					<div class="box-list-square box-finance">
 						<ul class="row">
-																								<li class="col-12 col-md-6 item" data-cid="655240">
+																								<li class="col-12 col-md-6 item" data-cid="655395">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/finance-stock/news/655240" title="บาทเปิด 31.11/13 บาทต่อดอลลาร์ แข็งค่า">
+												<a href="https://www.posttoday.com/finance-stock/news/655395" title="คลังยันไม่ได้กู้เงินเพื่อซื้อทองคำ">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/57286F19395F3EF81A3C016247948C28_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="บาทเปิด 31.11/13 บาทต่อดอลลาร์ แข็งค่า">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/54F2DECE5DCABF78A981D1D25C1593D3_500.jpeg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/54F2DECE5DCABF78A981D1D25C1593D3_350.jpeg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/54F2DECE5DCABF78A981D1D25C1593D3.jpeg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/54F2DECE5DCABF78A981D1D25C1593D3_350.jpeg 350w,https://static.posttoday.com/media/content/2021/06/13/54F2DECE5DCABF78A981D1D25C1593D3_500.jpeg 500w,https://static.posttoday.com/media/content/2021/06/13/54F2DECE5DCABF78A981D1D25C1593D3_700.jpeg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="คลังยันไม่ได้กู้เงินเพื่อซื้อทองคำ">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/finance-stock/news/655240" title="บาทเปิด 31.11/13 บาทต่อดอลลาร์ แข็งค่า">บาทเปิด 31.11/13 บาทต่อดอลลาร์ แข็งค่า</a>
+												<a href="https://www.posttoday.com/finance-stock/news/655395" title="คลังยันไม่ได้กู้เงินเพื่อซื้อทองคำ">คลังยันไม่ได้กู้เงินเพื่อซื้อทองคำ</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-6 item" data-cid="655239">
+																																<li class="col-12 col-md-6 item" data-cid="655367">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/finance-stock/news/655239" title="ทองคำ 11 มิ.ย. ปรับขึ้น200 บาท">
+												<a href="https://www.posttoday.com/finance-stock/news/655367" title="ชาวบ้านเตรียมเฮ คลังเปิดลงทะเบียนรับสิทธิ์คนละครึ่งพรุ่งนี้รวม 31 ล้านคน">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/E65CD5B9B06C6189B8A445763EE0ADC8_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ทองคำ 11 มิ.ย. ปรับขึ้น200 บาท">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/A9969A34C78BC075153BCDFA83103B73_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/A9969A34C78BC075153BCDFA83103B73_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/A9969A34C78BC075153BCDFA83103B73.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/A9969A34C78BC075153BCDFA83103B73_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/A9969A34C78BC075153BCDFA83103B73_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/A9969A34C78BC075153BCDFA83103B73_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ชาวบ้านเตรียมเฮ คลังเปิดลงทะเบียนรับสิทธิ์คนละครึ่งพรุ่งนี้รวม 31 ล้านคน">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/finance-stock/news/655239" title="ทองคำ 11 มิ.ย. ปรับขึ้น200 บาท">ทองคำ 11 มิ.ย. ปรับขึ้น200 บาท</a>
+												<a href="https://www.posttoday.com/finance-stock/news/655367" title="ชาวบ้านเตรียมเฮ คลังเปิดลงทะเบียนรับสิทธิ์คนละครึ่งพรุ่งนี้รวม 31 ล้านคน">ชาวบ้านเตรียมเฮ คลังเปิดลงทะเบียนรับสิทธิ์คนละครึ่งพรุ่งนี้รวม 31 ล้านคน</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655236">
+																																<li class="col-12 col-md-4 item" data-cid="655333">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/finance-stock/news/655236" title="คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย">
+												<a href="https://www.posttoday.com/finance-stock/news/655333" title="ทองคำ 12 มิ.ย. ร่วง 200 บาท">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/29EF0BE1C8E8A8125FA8B816FD07CCB6_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/12/4E87DFD93207E877182396152D57D9E1_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/12/4E87DFD93207E877182396152D57D9E1.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/12/4E87DFD93207E877182396152D57D9E1_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ทองคำ 12 มิ.ย. ร่วง 200 บาท">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/finance-stock/news/655236" title="คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย">คลังคืนสิทธิร้านเราชนะให้ผู้ประกอบการ187ราย</a>
+												<a href="https://www.posttoday.com/finance-stock/news/655333" title="ทองคำ 12 มิ.ย. ร่วง 200 บาท">ทองคำ 12 มิ.ย. ร่วง 200 บาท</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655235">
+																																<li class="col-12 col-md-4 item" data-cid="655328">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/finance-stock/news/655235" title="ปล่อยสินเชื่อธุรกิจท่องเที่ยวรายเล็ก วงเงิน 5 แสนบาท ไม่ต้องมีหลักประกัน">
+												<a href="https://www.posttoday.com/finance-stock/news/655328" title="ทองคำร่วงแรง/น้ำมันพุ่ง/หุ้นบวกเล็กน้อย">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/25C6F9BE7790FC1FAC9A7BE1A84BCBF7_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/25C6F9BE7790FC1FAC9A7BE1A84BCBF7.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/25C6F9BE7790FC1FAC9A7BE1A84BCBF7_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ปล่อยสินเชื่อธุรกิจท่องเที่ยวรายเล็ก วงเงิน 5 แสนบาท ไม่ต้องมีหลักประกัน">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/12/004AF912E4342CA015867A74D76F7C09_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/12/004AF912E4342CA015867A74D76F7C09.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/12/004AF912E4342CA015867A74D76F7C09_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ทองคำร่วงแรง/น้ำมันพุ่ง/หุ้นบวกเล็กน้อย">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/finance-stock/news/655235" title="ปล่อยสินเชื่อธุรกิจท่องเที่ยวรายเล็ก วงเงิน 5 แสนบาท ไม่ต้องมีหลักประกัน">ปล่อยสินเชื่อธุรกิจท่องเที่ยวรายเล็ก วงเงิน 5 แสนบาท ไม่ต้องมีหลักประกัน</a>
+												<a href="https://www.posttoday.com/finance-stock/news/655328" title="ทองคำร่วงแรง/น้ำมันพุ่ง/หุ้นบวกเล็กน้อย">ทองคำร่วงแรง/น้ำมันพุ่ง/หุ้นบวกเล็กน้อย</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655233">
+																																<li class="col-12 col-md-4 item" data-cid="655321">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/finance-stock/news/655233" title="ธปท.ห้ามธนาคารปันผลเกิน50%ของกำไร">
+												<a href="https://www.posttoday.com/finance-stock/stock/655321" title="ก.ล.ต.คุมการซื้อขายโทเคนดิจิทัลและคริปโทเคอร์เรนซี">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/F0E7600A86977C7C0F5D6842CF3E492F_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/F0E7600A86977C7C0F5D6842CF3E492F.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/F0E7600A86977C7C0F5D6842CF3E492F_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ธปท.ห้ามธนาคารปันผลเกิน50%ของกำไร">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/1A92A71481DCB3C9BA35B9E57E402B15_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/1A92A71481DCB3C9BA35B9E57E402B15.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/1A92A71481DCB3C9BA35B9E57E402B15_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ก.ล.ต.คุมการซื้อขายโทเคนดิจิทัลและคริปโทเคอร์เรนซี">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/finance-stock/news/655233" title="ธปท.ห้ามธนาคารปันผลเกิน50%ของกำไร">ธปท.ห้ามธนาคารปันผลเกิน50%ของกำไร</a>
+												<a href="https://www.posttoday.com/finance-stock/stock/655321" title="ก.ล.ต.คุมการซื้อขายโทเคนดิจิทัลและคริปโทเคอร์เรนซี">ก.ล.ต.คุมการซื้อขายโทเคนดิจิทัลและคริปโทเคอร์เรนซี</a>
 											</div>
 										</div>
 									</li>
@@ -1777,73 +1697,73 @@
 				<div class="box-list-square">
 					<div class="box-list-square box-economy">
 						<ul class="row">
-																								<li class="col-12 col-md-6 item" data-cid="655217">
+																								<li class="col-12 col-md-6 item" data-cid="655403">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/economy/news/655217" title="SENA  โชว์กำไรไตรมาสแรก 228.6 ลบ. โตสวนพิษโควิด">
+												<a href="https://www.posttoday.com/economy/news/655403" title="เฮ!! รัฐเยียวยาโควิด เว้นค่าธรรมเนียมใบมอก.อีก 1 ปี">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/7F7452BE0E8F7DC4AAD14006EF1D9558_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/7F7452BE0E8F7DC4AAD14006EF1D9558_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/7F7452BE0E8F7DC4AAD14006EF1D9558.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/7F7452BE0E8F7DC4AAD14006EF1D9558_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/7F7452BE0E8F7DC4AAD14006EF1D9558_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/7F7452BE0E8F7DC4AAD14006EF1D9558_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="SENA  โชว์กำไรไตรมาสแรก 228.6 ลบ. โตสวนพิษโควิด">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/CC4DDC0C1B3D9F32013926A00F95BEE4_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/CC4DDC0C1B3D9F32013926A00F95BEE4_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/CC4DDC0C1B3D9F32013926A00F95BEE4.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/CC4DDC0C1B3D9F32013926A00F95BEE4_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/CC4DDC0C1B3D9F32013926A00F95BEE4_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/CC4DDC0C1B3D9F32013926A00F95BEE4_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เฮ!! รัฐเยียวยาโควิด เว้นค่าธรรมเนียมใบมอก.อีก 1 ปี">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/economy/news/655217" title="SENA  โชว์กำไรไตรมาสแรก 228.6 ลบ. โตสวนพิษโควิด">SENA  โชว์กำไรไตรมาสแรก 228.6 ลบ. โตสวนพิษโควิด</a>
+												<a href="https://www.posttoday.com/economy/news/655403" title="เฮ!! รัฐเยียวยาโควิด เว้นค่าธรรมเนียมใบมอก.อีก 1 ปี">เฮ!! รัฐเยียวยาโควิด เว้นค่าธรรมเนียมใบมอก.อีก 1 ปี</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-6 item" data-cid="655219">
+																																<li class="col-12 col-md-6 item" data-cid="655355">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/economy/news/655219" title="ผลวิจัย &#039;ครัวเรือนไทย&#039; ระดับเงินออมลดลง คนกทม.อยู่ได้อีก 3 เดือน ต่างจังหวัดไม่เกิน 1 เดือน จากวิกฤตโควิด">
+												<a href="https://www.posttoday.com/economy/news/655355" title="ขอเริ่มก้าวแรกก่อน &quot;อลงกรณ์&quot; ลุย &quot;โมเดลเพชรบุรี&quot;">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/566792E0AFD328C73188EBC8852D7F83_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/566792E0AFD328C73188EBC8852D7F83_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/566792E0AFD328C73188EBC8852D7F83.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/566792E0AFD328C73188EBC8852D7F83_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/566792E0AFD328C73188EBC8852D7F83_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/566792E0AFD328C73188EBC8852D7F83_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ผลวิจัย &#039;ครัวเรือนไทย&#039; ระดับเงินออมลดลง คนกทม.อยู่ได้อีก 3 เดือน ต่างจังหวัดไม่เกิน 1 เดือน จากวิกฤตโควิด">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/12/CBA94734A2526A8C6C82133C175BA8C2_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/12/CBA94734A2526A8C6C82133C175BA8C2_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/12/CBA94734A2526A8C6C82133C175BA8C2.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/12/CBA94734A2526A8C6C82133C175BA8C2_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/12/CBA94734A2526A8C6C82133C175BA8C2_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/12/CBA94734A2526A8C6C82133C175BA8C2_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ขอเริ่มก้าวแรกก่อน &quot;อลงกรณ์&quot; ลุย &quot;โมเดลเพชรบุรี&quot;">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/economy/news/655219" title="ผลวิจัย &#039;ครัวเรือนไทย&#039; ระดับเงินออมลดลง คนกทม.อยู่ได้อีก 3 เดือน ต่างจังหวัดไม่เกิน 1 เดือน จากวิกฤตโควิด">ผลวิจัย &#039;ครัวเรือนไทย&#039; ระดับเงินออมลดลง คนกทม.อยู่ได้อีก 3 เดือน ต่างจังหวัดไม่เกิน 1 เดือน จากวิกฤตโควิด</a>
+												<a href="https://www.posttoday.com/economy/news/655355" title="ขอเริ่มก้าวแรกก่อน &quot;อลงกรณ์&quot; ลุย &quot;โมเดลเพชรบุรี&quot;">ขอเริ่มก้าวแรกก่อน &quot;อลงกรณ์&quot; ลุย &quot;โมเดลเพชรบุรี&quot;</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655207">
+																																<li class="col-12 col-md-4 item" data-cid="655323">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/economy/news/655207" title="‘เทนเซ็นต์ คลาวด์’ เปิดดาต้าเซ็นเตอร์แห่งที่สองตั้งใจกลางกรุงเทพฯ รับอนาคตโลกเศรษฐกิจดิจิทัลเติบโต">
+												<a href="https://www.posttoday.com/economy/news/655323" title="ท่องเที่ยว ‘กระบี่’ รอแซนด์บอกซ์ หลังให้ภูเก็ตนำร่องเดือน ก.ค.ไปก่อน">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/D097504FA5C96721E93FE92791DCF7B4_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/D097504FA5C96721E93FE92791DCF7B4.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/D097504FA5C96721E93FE92791DCF7B4_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="‘เทนเซ็นต์ คลาวด์’ เปิดดาต้าเซ็นเตอร์แห่งที่สองตั้งใจกลางกรุงเทพฯ รับอนาคตโลกเศรษฐกิจดิจิทัลเติบโต">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/937F21AFC6E3FC8A47849D88A96E0B19_350.jpeg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/937F21AFC6E3FC8A47849D88A96E0B19.jpeg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/937F21AFC6E3FC8A47849D88A96E0B19_350.jpeg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ท่องเที่ยว ‘กระบี่’ รอแซนด์บอกซ์ หลังให้ภูเก็ตนำร่องเดือน ก.ค.ไปก่อน">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/economy/news/655207" title="‘เทนเซ็นต์ คลาวด์’ เปิดดาต้าเซ็นเตอร์แห่งที่สองตั้งใจกลางกรุงเทพฯ รับอนาคตโลกเศรษฐกิจดิจิทัลเติบโต">‘เทนเซ็นต์ คลาวด์’ เปิดดาต้าเซ็นเตอร์แห่งที่สองตั้งใจกลางกรุงเทพฯ รับอนาคตโลกเศรษฐกิจดิจิทัลเติบโต</a>
+												<a href="https://www.posttoday.com/economy/news/655323" title="ท่องเที่ยว ‘กระบี่’ รอแซนด์บอกซ์ หลังให้ภูเก็ตนำร่องเดือน ก.ค.ไปก่อน">ท่องเที่ยว ‘กระบี่’ รอแซนด์บอกซ์ หลังให้ภูเก็ตนำร่องเดือน ก.ค.ไปก่อน</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655216">
+																																<li class="col-12 col-md-4 item" data-cid="655324">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/economy/news/655216" title=" โควิด-การเมืองฉุดความเชื่อมั่นคนไทยต่ำสุดรอบ 22 ปี  ">
+												<a href="https://www.posttoday.com/economy/news/655324" title="YLGแนะจับตาประชุมเฟดกลางเดือน ลุ้นนโยบายการเงินมีผลต่อราคาทองไปต่อหรือย่อตัว">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/1048CC5FF615526FEDB26E31FCFFE1CC_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/1048CC5FF615526FEDB26E31FCFFE1CC.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/1048CC5FF615526FEDB26E31FCFFE1CC_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt=" โควิด-การเมืองฉุดความเชื่อมั่นคนไทยต่ำสุดรอบ 22 ปี  ">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/A0F61D92ABA2621682289A77654C3FB9_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/A0F61D92ABA2621682289A77654C3FB9.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/A0F61D92ABA2621682289A77654C3FB9_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="YLGแนะจับตาประชุมเฟดกลางเดือน ลุ้นนโยบายการเงินมีผลต่อราคาทองไปต่อหรือย่อตัว">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/economy/news/655216" title=" โควิด-การเมืองฉุดความเชื่อมั่นคนไทยต่ำสุดรอบ 22 ปี  "> โควิด-การเมืองฉุดความเชื่อมั่นคนไทยต่ำสุดรอบ 22 ปี  </a>
+												<a href="https://www.posttoday.com/economy/news/655324" title="YLGแนะจับตาประชุมเฟดกลางเดือน ลุ้นนโยบายการเงินมีผลต่อราคาทองไปต่อหรือย่อตัว">YLGแนะจับตาประชุมเฟดกลางเดือน ลุ้นนโยบายการเงินมีผลต่อราคาทองไปต่อหรือย่อตัว</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655215">
+																																<li class="col-12 col-md-4 item" data-cid="655322">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/economy/news/655215" title="เติมด่วน พรุ่งนี้น้ำมันทุกชนิดขึ้น 30-50 สต.">
+												<a href="https://www.posttoday.com/economy/news/655322" title="โรงแรมและรีสอร์ทระดับโลกทั่วเกาะภูเก็ต เคาะแพ็คเกจพิเศษเตรียมรับนักท่องเที่ยวต่างชาติกลับมา เริ่ม 1 ก.ค.นี้">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/11DC5178C5C010B5EDE5A86D7E42586F_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/11DC5178C5C010B5EDE5A86D7E42586F.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/11DC5178C5C010B5EDE5A86D7E42586F_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เติมด่วน พรุ่งนี้น้ำมันทุกชนิดขึ้น 30-50 สต.">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/A19E9A3828FCF3C64DA0E9EB7809AAF8_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/A19E9A3828FCF3C64DA0E9EB7809AAF8.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/A19E9A3828FCF3C64DA0E9EB7809AAF8_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="โรงแรมและรีสอร์ทระดับโลกทั่วเกาะภูเก็ต เคาะแพ็คเกจพิเศษเตรียมรับนักท่องเที่ยวต่างชาติกลับมา เริ่ม 1 ก.ค.นี้">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/economy/news/655215" title="เติมด่วน พรุ่งนี้น้ำมันทุกชนิดขึ้น 30-50 สต.">เติมด่วน พรุ่งนี้น้ำมันทุกชนิดขึ้น 30-50 สต.</a>
+												<a href="https://www.posttoday.com/economy/news/655322" title="โรงแรมและรีสอร์ทระดับโลกทั่วเกาะภูเก็ต เคาะแพ็คเกจพิเศษเตรียมรับนักท่องเที่ยวต่างชาติกลับมา เริ่ม 1 ก.ค.นี้">โรงแรมและรีสอร์ทระดับโลกทั่วเกาะภูเก็ต เคาะแพ็คเกจพิเศษเตรียมรับนักท่องเที่ยวต่างชาติกลับมา เริ่ม 1 ก.ค.นี้</a>
 											</div>
 										</div>
 									</li>
@@ -1864,73 +1784,73 @@
 				<div class="box-list-square">
 					<div class="box-list-square">
 						<ul class="row">
-																								<li class="col-12 col-md-6 item" data-cid="655238">
+																								<li class="col-12 col-md-6 item" data-cid="655408">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/politic/news/655238" title="“ธนกร”ขอบคุณ”บิ๊กตู่”หนุนนั่งเก้าอี้โฆษก ศบศ.">
+												<a href="https://www.posttoday.com/politic/news/655408" title="รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/11/A1D5E8BB09245671D4ECEA996E956377_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="“ธนกร”ขอบคุณ”บิ๊กตู่”หนุนนั่งเก้าอี้โฆษก ศบศ.">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/842E857D4F7B81B11C92E8FAD473E2F7_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/politic/news/655238" title="“ธนกร”ขอบคุณ”บิ๊กตู่”หนุนนั่งเก้าอี้โฆษก ศบศ.">“ธนกร”ขอบคุณ”บิ๊กตู่”หนุนนั่งเก้าอี้โฆษก ศบศ.</a>
+												<a href="https://www.posttoday.com/politic/news/655408" title="รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส">รัฐบาลแจงฉีดวัคซีนได้ตามเป้าหมาย ยอดสะสมกว่า6ล้านโดส</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-6 item" data-cid="655221">
+																																<li class="col-12 col-md-6 item" data-cid="655394">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/politic/news/655221" title="&quot;ชวน&quot; ชี้ &quot;สิระ&quot; พา &quot;ลุงพล&quot; เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ.">
+												<a href="https://www.posttoday.com/politic/news/655394" title="&quot;เพื่อไทย&quot;แฉกองทัพเรือดึงดันซื้อเรือดำน้ำ2ลำแม้เกิดวิกฤตโควิด">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/16DB89408C84F9593C472160A3CBBC2B_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;ชวน&quot; ชี้ &quot;สิระ&quot; พา &quot;ลุงพล&quot; เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ.">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/2406851EFD1B4D2F43411A0B9B77CD06_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/2406851EFD1B4D2F43411A0B9B77CD06_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/2406851EFD1B4D2F43411A0B9B77CD06.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/2406851EFD1B4D2F43411A0B9B77CD06_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/2406851EFD1B4D2F43411A0B9B77CD06_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/2406851EFD1B4D2F43411A0B9B77CD06_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;เพื่อไทย&quot;แฉกองทัพเรือดึงดันซื้อเรือดำน้ำ2ลำแม้เกิดวิกฤตโควิด">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/politic/news/655221" title="&quot;ชวน&quot; ชี้ &quot;สิระ&quot; พา &quot;ลุงพล&quot; เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ.">&quot;ชวน&quot; ชี้ &quot;สิระ&quot; พา &quot;ลุงพล&quot; เข้าสภาฯ เป็นเรื่องส่วนบุคคล เพราะคนเดือดร้อนก็พึ่ง กมธ.</a>
+												<a href="https://www.posttoday.com/politic/news/655394" title="&quot;เพื่อไทย&quot;แฉกองทัพเรือดึงดันซื้อเรือดำน้ำ2ลำแม้เกิดวิกฤตโควิด">&quot;เพื่อไทย&quot;แฉกองทัพเรือดึงดันซื้อเรือดำน้ำ2ลำแม้เกิดวิกฤตโควิด</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655205">
+																																<li class="col-12 col-md-4 item" data-cid="655380">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/politic/news/655205" title="&quot;ศรัณย์วุฒิ&quot; อ้างติดช่วยชาวบ้านในพื้นที่จึงมาโหวต พ.ร.ก.กู้ 5 แสนล้านไม่ได้">
+												<a href="https://www.posttoday.com/politic/news/655380" title="นายกฯสั่งตรวจเข้มพนันบอลยูโร">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/0527D9E2316F2101211ED96277E2E1FE_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/0527D9E2316F2101211ED96277E2E1FE.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/0527D9E2316F2101211ED96277E2E1FE_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;ศรัณย์วุฒิ&quot; อ้างติดช่วยชาวบ้านในพื้นที่จึงมาโหวต พ.ร.ก.กู้ 5 แสนล้านไม่ได้">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/2707C03A560587A29987586EF9A96AA5_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/2707C03A560587A29987586EF9A96AA5.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/2707C03A560587A29987586EF9A96AA5_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="นายกฯสั่งตรวจเข้มพนันบอลยูโร">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/politic/news/655205" title="&quot;ศรัณย์วุฒิ&quot; อ้างติดช่วยชาวบ้านในพื้นที่จึงมาโหวต พ.ร.ก.กู้ 5 แสนล้านไม่ได้">&quot;ศรัณย์วุฒิ&quot; อ้างติดช่วยชาวบ้านในพื้นที่จึงมาโหวต พ.ร.ก.กู้ 5 แสนล้านไม่ได้</a>
+												<a href="https://www.posttoday.com/politic/news/655380" title="นายกฯสั่งตรวจเข้มพนันบอลยูโร">นายกฯสั่งตรวจเข้มพนันบอลยูโร</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655197">
+																																<li class="col-12 col-md-4 item" data-cid="655374">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/politic/news/655197" title="&quot;บิ๊กป้อม&quot; ไม่ฟันธงรัฐบาลอยู่ครบเทอมหรือไม่ ยัน พปชร.ไม่ดูด ส.ส.พรรคอื่นเข้ามา">
+												<a href="https://www.posttoday.com/politic/columnist/655374" title="สาธารณสุขมูลฐานโลกยุคใหม่">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/D1A607190139C3710A9B621C35A10B07_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/D1A607190139C3710A9B621C35A10B07.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/D1A607190139C3710A9B621C35A10B07_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;บิ๊กป้อม&quot; ไม่ฟันธงรัฐบาลอยู่ครบเทอมหรือไม่ ยัน พปชร.ไม่ดูด ส.ส.พรรคอื่นเข้ามา">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/B97495470DE2AB0AB3EADADDDCC1A399_350.jpeg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/B97495470DE2AB0AB3EADADDDCC1A399.jpeg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/B97495470DE2AB0AB3EADADDDCC1A399_350.jpeg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="สาธารณสุขมูลฐานโลกยุคใหม่">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/politic/news/655197" title="&quot;บิ๊กป้อม&quot; ไม่ฟันธงรัฐบาลอยู่ครบเทอมหรือไม่ ยัน พปชร.ไม่ดูด ส.ส.พรรคอื่นเข้ามา">&quot;บิ๊กป้อม&quot; ไม่ฟันธงรัฐบาลอยู่ครบเทอมหรือไม่ ยัน พปชร.ไม่ดูด ส.ส.พรรคอื่นเข้ามา</a>
+												<a href="https://www.posttoday.com/politic/columnist/655374" title="สาธารณสุขมูลฐานโลกยุคใหม่">สาธารณสุขมูลฐานโลกยุคใหม่</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655193">
+																																<li class="col-12 col-md-4 item" data-cid="655363">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/politic/news/655193" title="&quot;ประเสริฐ&quot; เผย 2 ส.ส.ไม่โหวต พ.ร.ก.กู้ 5 แสนล้านแจ้งลาแล้ว ส่วนที่เหลือยังติดต่อไม่ได้">
+												<a href="https://www.posttoday.com/politic/news/655363" title="บิ๊กตู่ไฟเขียวกทม.คลายล็อกโควิดกิจการ5ประเภท">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/5D0F62497812AB2885852DA3AAE1BD86_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/5D0F62497812AB2885852DA3AAE1BD86.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/5D0F62497812AB2885852DA3AAE1BD86_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="&quot;ประเสริฐ&quot; เผย 2 ส.ส.ไม่โหวต พ.ร.ก.กู้ 5 แสนล้านแจ้งลาแล้ว ส่วนที่เหลือยังติดต่อไม่ได้">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/12/7BE47221555FA2DD9D5F9AEC8D3B6D03_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/12/7BE47221555FA2DD9D5F9AEC8D3B6D03.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/12/7BE47221555FA2DD9D5F9AEC8D3B6D03_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="บิ๊กตู่ไฟเขียวกทม.คลายล็อกโควิดกิจการ5ประเภท">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/politic/news/655193" title="&quot;ประเสริฐ&quot; เผย 2 ส.ส.ไม่โหวต พ.ร.ก.กู้ 5 แสนล้านแจ้งลาแล้ว ส่วนที่เหลือยังติดต่อไม่ได้">&quot;ประเสริฐ&quot; เผย 2 ส.ส.ไม่โหวต พ.ร.ก.กู้ 5 แสนล้านแจ้งลาแล้ว ส่วนที่เหลือยังติดต่อไม่ได้</a>
+												<a href="https://www.posttoday.com/politic/news/655363" title="บิ๊กตู่ไฟเขียวกทม.คลายล็อกโควิดกิจการ5ประเภท">บิ๊กตู่ไฟเขียวกทม.คลายล็อกโควิดกิจการ5ประเภท</a>
 											</div>
 										</div>
 									</li>
@@ -1949,73 +1869,73 @@
 				<div class="box-list-square">
 					<div class="box-list-square box-life">
 						<ul class="row">
-																								<li class="col-12 col-md-6 item" data-cid="655140">
+																								<li class="col-12 col-md-6 item" data-cid="655404">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/life/travel/655140" title="กินหรู อยู่สุรวงศ์ ทานครบรับฟรีห้องพักหรู @โรงแรมแมริออท สุรวงศ์">
+												<a href="https://www.posttoday.com/life/horo/655404" title="ดวงรอบสัปดาห์ทำนายระหว่างวันที่ 14-20 มิ.ย.64">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/39C409637B3ECDB6F37AA4C6B5B1165E_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/39C409637B3ECDB6F37AA4C6B5B1165E_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/39C409637B3ECDB6F37AA4C6B5B1165E.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/39C409637B3ECDB6F37AA4C6B5B1165E_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/10/39C409637B3ECDB6F37AA4C6B5B1165E_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/10/39C409637B3ECDB6F37AA4C6B5B1165E_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="กินหรู อยู่สุรวงศ์ ทานครบรับฟรีห้องพักหรู @โรงแรมแมริออท สุรวงศ์">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/6B2C337E54ED2B8BB979DCD9DA5C20EB_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/6B2C337E54ED2B8BB979DCD9DA5C20EB_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/6B2C337E54ED2B8BB979DCD9DA5C20EB.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/6B2C337E54ED2B8BB979DCD9DA5C20EB_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/6B2C337E54ED2B8BB979DCD9DA5C20EB_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/6B2C337E54ED2B8BB979DCD9DA5C20EB_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="ดวงรอบสัปดาห์ทำนายระหว่างวันที่ 14-20 มิ.ย.64">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/life/travel/655140" title="กินหรู อยู่สุรวงศ์ ทานครบรับฟรีห้องพักหรู @โรงแรมแมริออท สุรวงศ์">กินหรู อยู่สุรวงศ์ ทานครบรับฟรีห้องพักหรู @โรงแรมแมริออท สุรวงศ์</a>
+												<a href="https://www.posttoday.com/life/horo/655404" title="ดวงรอบสัปดาห์ทำนายระหว่างวันที่ 14-20 มิ.ย.64">ดวงรอบสัปดาห์ทำนายระหว่างวันที่ 14-20 มิ.ย.64</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-6 item" data-cid="655139">
+																																<li class="col-12 col-md-6 item" data-cid="655391">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/life/healthy/655139" title="รู้ทันโรค! ลดความเสี่ยงเลี่ยงมะเร็งปอด">
+												<a href="https://www.posttoday.com/life/work-life-balance/655391" title="แม็กซ์ มาร่า คอลเลคชั่นใหม่ก่อนฤดูใบไม้ร่วง 2021">
 													<picture class="img-size-section-large">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/E60581AE7FFEE06368C35D95633CCB8E_500.jpeg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/E60581AE7FFEE06368C35D95633CCB8E_350.jpeg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/E60581AE7FFEE06368C35D95633CCB8E.jpeg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/E60581AE7FFEE06368C35D95633CCB8E_350.jpeg 350w,https://static.posttoday.com/media/content/2021/06/10/E60581AE7FFEE06368C35D95633CCB8E_500.jpeg 500w,https://static.posttoday.com/media/content/2021/06/10/E60581AE7FFEE06368C35D95633CCB8E_700.jpeg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="รู้ทันโรค! ลดความเสี่ยงเลี่ยงมะเร็งปอด">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/23F08FFAE55AEC574B8E57B1409E9750_500.jpg' media='(min-width: 500px)'><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/23F08FFAE55AEC574B8E57B1409E9750_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/23F08FFAE55AEC574B8E57B1409E9750.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/23F08FFAE55AEC574B8E57B1409E9750_350.jpg 350w,https://static.posttoday.com/media/content/2021/06/13/23F08FFAE55AEC574B8E57B1409E9750_500.jpg 500w,https://static.posttoday.com/media/content/2021/06/13/23F08FFAE55AEC574B8E57B1409E9750_700.jpg 700w"  onerror="imgError(this);" class="img-fluid lazyload" alt="แม็กซ์ มาร่า คอลเลคชั่นใหม่ก่อนฤดูใบไม้ร่วง 2021">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/life/healthy/655139" title="รู้ทันโรค! ลดความเสี่ยงเลี่ยงมะเร็งปอด">รู้ทันโรค! ลดความเสี่ยงเลี่ยงมะเร็งปอด</a>
+												<a href="https://www.posttoday.com/life/work-life-balance/655391" title="แม็กซ์ มาร่า คอลเลคชั่นใหม่ก่อนฤดูใบไม้ร่วง 2021">แม็กซ์ มาร่า คอลเลคชั่นใหม่ก่อนฤดูใบไม้ร่วง 2021</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655137">
+																																<li class="col-12 col-md-4 item" data-cid="655376">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/life/work-life-balance/655137" title="เทรนด์แฟชั่นชุดแต่งงานเรียบโก้สไตล์เจ้าสาวยุค New Normal">
+												<a href="https://www.posttoday.com/life/work-life-balance/655376" title="Chat &amp; Shop สร้างประสบการณ์บนโลกออนไลน์ ส่งต่อสิ่งดีๆ ให้คนที่รักเพียงปลายนิ้วสัมผัส">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/10/2A1DAFF352FCEA2F4DD8EA1A6DF54E8A_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/10/2A1DAFF352FCEA2F4DD8EA1A6DF54E8A.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/10/2A1DAFF352FCEA2F4DD8EA1A6DF54E8A_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เทรนด์แฟชั่นชุดแต่งงานเรียบโก้สไตล์เจ้าสาวยุค New Normal">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/FAC54D376486641E9AD0E538FEE0A365_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/FAC54D376486641E9AD0E538FEE0A365.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/FAC54D376486641E9AD0E538FEE0A365_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="Chat &amp; Shop สร้างประสบการณ์บนโลกออนไลน์ ส่งต่อสิ่งดีๆ ให้คนที่รักเพียงปลายนิ้วสัมผัส">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/life/work-life-balance/655137" title="เทรนด์แฟชั่นชุดแต่งงานเรียบโก้สไตล์เจ้าสาวยุค New Normal">เทรนด์แฟชั่นชุดแต่งงานเรียบโก้สไตล์เจ้าสาวยุค New Normal</a>
+												<a href="https://www.posttoday.com/life/work-life-balance/655376" title="Chat &amp; Shop สร้างประสบการณ์บนโลกออนไลน์ ส่งต่อสิ่งดีๆ ให้คนที่รักเพียงปลายนิ้วสัมผัส">Chat &amp; Shop สร้างประสบการณ์บนโลกออนไลน์ ส่งต่อสิ่งดีๆ ให้คนที่รักเพียงปลายนิ้วสัมผัส</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655030">
+																																<li class="col-12 col-md-4 item" data-cid="655373">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/life/work-life-balance/655030" title="4 มิติเพื่อการพัฒนาได้อย่างยั่งยืน และมุมมองอินฟลูเอ็นเซอร์ต่อเป้าหมายการพัฒนาที่ยั่งยืน">
+												<a href="https://www.posttoday.com/life/travel/655373" title="สดใหม่ใส่ใจทุกจาน &#039;พระยา คิทเช่น&#039; เสิร์ฟอาหารตามสั่งอิ่มไม่อั้น ทุกศุกร์-เสาร์-อาทิตย์">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/09/3E89CE3FE8CB362D8060C91F00025793_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/09/3E89CE3FE8CB362D8060C91F00025793.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/09/3E89CE3FE8CB362D8060C91F00025793_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="4 มิติเพื่อการพัฒนาได้อย่างยั่งยืน และมุมมองอินฟลูเอ็นเซอร์ต่อเป้าหมายการพัฒนาที่ยั่งยืน">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/A0058181DF8C875E1CB6DA6B57AA8393_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/A0058181DF8C875E1CB6DA6B57AA8393.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/A0058181DF8C875E1CB6DA6B57AA8393_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="สดใหม่ใส่ใจทุกจาน &#039;พระยา คิทเช่น&#039; เสิร์ฟอาหารตามสั่งอิ่มไม่อั้น ทุกศุกร์-เสาร์-อาทิตย์">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/life/work-life-balance/655030" title="4 มิติเพื่อการพัฒนาได้อย่างยั่งยืน และมุมมองอินฟลูเอ็นเซอร์ต่อเป้าหมายการพัฒนาที่ยั่งยืน">4 มิติเพื่อการพัฒนาได้อย่างยั่งยืน และมุมมองอินฟลูเอ็นเซอร์ต่อเป้าหมายการพัฒนาที่ยั่งยืน</a>
+												<a href="https://www.posttoday.com/life/travel/655373" title="สดใหม่ใส่ใจทุกจาน &#039;พระยา คิทเช่น&#039; เสิร์ฟอาหารตามสั่งอิ่มไม่อั้น ทุกศุกร์-เสาร์-อาทิตย์">สดใหม่ใส่ใจทุกจาน &#039;พระยา คิทเช่น&#039; เสิร์ฟอาหารตามสั่งอิ่มไม่อั้น ทุกศุกร์-เสาร์-อาทิตย์</a>
 											</div>
 										</div>
 									</li>
-																																<li class="col-12 col-md-4 item" data-cid="655023">
+																																<li class="col-12 col-md-4 item" data-cid="655372">
 										<div class="box-list--square">
 											<div class="box-list--image">
-												<a href="https://www.posttoday.com/life/work-life-balance/655023" title="เปิดกล่องสมบัติสุดพิเศษจาก Keds x A Treasure Box">
+												<a href="https://www.posttoday.com/life/travel/655372" title="Rainy Season โพสท่าสุดชิครับหน้าฝนนี้ที่เดอะ สตรีท รัชดา">
 													<picture class="img-size-section-small">
-														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/09/4D0259654FC7B564A684BB1C83155185_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/09/4D0259654FC7B564A684BB1C83155185.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/09/4D0259654FC7B564A684BB1C83155185_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="เปิดกล่องสมบัติสุดพิเศษจาก Keds x A Treasure Box">
+														<!--[if IE 9]><video style="display: none;><![endif]--><source onerror='imgError(this);' data-srcset='https://static.posttoday.com/media/content/2021/06/13/4767C942EAA13B0386FF93854C83B68F_350.jpg' media='(min-width: 350px)'><!--[if IE 9]></video><![endif]-->														<img src="https://static.posttoday.com/v5/assets/images/bg/default-pic.jpg" data-src="https://static.posttoday.com/media/content/2021/06/13/4767C942EAA13B0386FF93854C83B68F.jpg"  data-srcset="https://static.posttoday.com/media/content/2021/06/13/4767C942EAA13B0386FF93854C83B68F_350.jpg 350w"  onerror="imgError(this);" class="img-fluid lazyload" alt="Rainy Season โพสท่าสุดชิครับหน้าฝนนี้ที่เดอะ สตรีท รัชดา">
 													</picture>
 												</a>
 											</div>
 											<div class="box-list--text">
-												<a href="https://www.posttoday.com/life/work-life-balance/655023" title="เปิดกล่องสมบัติสุดพิเศษจาก Keds x A Treasure Box">เปิดกล่องสมบัติสุดพิเศษจาก Keds x A Treasure Box</a>
+												<a href="https://www.posttoday.com/life/travel/655372" title="Rainy Season โพสท่าสุดชิครับหน้าฝนนี้ที่เดอะ สตรีท รัชดา">Rainy Season โพสท่าสุดชิครับหน้าฝนนี้ที่เดอะ สตรีท รัชดา</a>
 											</div>
 										</div>
 									</li>
